@@ -129,6 +129,47 @@
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
+        
+        <style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
     </style>
 
     <nav class="navbar navbar-inverse">
@@ -159,6 +200,8 @@
               
             <li><a href="publications.html">Publications</a></li>
             <li><a href="ProfileCard.html">Profile Card</a></li>
+                            <li><a href ="photo_gallery.html">Photo Gallery</a></li>
+
           </ul>
             
             <!--
@@ -179,7 +222,7 @@
         <br>
         
         <h2>About me</h2>
-        <p align = "justify">This is me, I'm doing my Master's in Computer Science, at University of Regina, Canada. Although I'm good at programming, definitely not a code monkey. I like to document each and every line of code and help others understand it. It is very important to document the code. I believe that I learn simultaneously while I also teach. Hence I write tutorials and critique other works and improve it. I stay in Luther College Residence at the Universiy of Regina. Originally I'm from Bangalore.</p>
+        <p align = "justify">This is me, Tanu Nanda Prabhu, I’m doing my Master’s in Computer Science, at the University of Regina, Canada. Although I’m good at programming, definitely not a code monkey. I like to document every line of code and help others understand it. It is very important to document the code. I believe that I learn simultaneously while I also teach. Hence I write tutorials and critique other works and improve it. I live in Luther College Residence at the University of Regina. I was born and brought up in Bangalore, Karnataka, India.</p>
 
         <hr class="ruler">
 
@@ -252,7 +295,10 @@
 
         <h2>Early Life</h2>
         <p align = "justify">
-        Tanu was born in Bengaluru, Karnatake, India on May 31, 1996. He is the son of R. Nanda Kumar (Dad) and B. Jyothi (Mom). His ancestors are all indians. His father was a head chef in ITC Canteen, and his mother as a Business and Product Manager at TMEIC, Bangaluru which is one of the finest companies in India. Tanu's grandfather is V Rama Roa, also was a head Chef in ITC Canteen. Tanu do not have any siblings. The family lives in 6th Block, Rajajinagar, Bengaluru. Early in his life, Gates observed that his parents wanted him to become an Engineer.
+        
+        I was born in Bengaluru, Karnataka, India on May 31, 1996. I am the son of R. Nanda Kumar (Dad) and B. Jyothi (Mom). My ancestors are all Indians. My dad was a head chef in ITC Canteen, and my mom is a Business and Product Manager at TMEIC India, located in Bengaluru which is one of the finest companies in India. Tanu’s grandfather is V. Rama Roa, who was also a Head Chef in ITC Canteen. I do not have any siblings. My family lives in 6th Block, Rajajinagar, Bengaluru. Early in my life, I observed that my parents wanted me to become an Engineer.
+
+
         </p>
         <br>
 
@@ -260,26 +306,37 @@
 
 
         <p align = "justify">
-        At the age of 5 Tanu started his school "St Miras High School" which was in Rajajinagar, and was located literally next street of his residence. During his school days Tanu was a really good student both in terms of his academics and his attitude. Most of his class teachers still remember his name. He graduated his school when he was at grade 10, and he was one of the top ten students in his school. During his childhood Tanu did not had any good or best friends, so he did not show any intrest in making friends. He is continuig the same thing even today. Tanu graduated his school with a good marks and all the credit goes to his mom because she spent most of her life in teaching and making him good at his studies, eventough tanu was good in his studies a bit of fine tuning was required, you know we are human beings we make mistakes, so his mistakes was corrected by his mom. One thing I have to admit is that Tanu's Handwriting is just amazing, again credit goes to his mom. His mom made him to write 5 pages in a day on a four lined book to improve his handwriting, even a slight mistake would cause him to rewrite the whole page again. This is how tanu's handwriting became so good. Tanu graduated from his school in 2012
+            
+        At the age of 5, I started my school “St Miras High School” which was in Rajajinagar and was located very close to my residence. During my school days, I was a good student both in terms of my academics and my attitude. Most of my class teachers still remember my name. I graduated from my school when I was in grade 10, and I was one of the top ten students in my school. During my childhood, I did not have any good or best friends, so I did not show any interest in making friends. I am continuing the same thing even today. I graduated my school with a good marks and most of the credit goes to my mom because she spent most of her life in teaching and making me good at his studies, even though I was good in my studies a bit of fine-tuning was required, you know we are human beings we make mistakes, so all my mistakes were corrected by my mom. One thing I have to admit is that my handwriting is just amazing, again credit goes to my mom. My mom made me write 5 pages in a day on a four-lined book to improve my handwriting, even a slight mistake would me him to rewrite the whole page again. This is how my handwriting became so good. Tanu graduated from his school in 2012.
+            
         </p>
         <br>
         
         <img src="KLE.png" class="image" alt="Pineapple" style="width:300px;height:170px;margin-left:15px;">
 
         <p align = "justify">
-        After graduating from his school, Tanu then joined KLE Independent PU College to continue his studies, he took a major in PCMC (Physics, Chemistry, Maths and Computer Science). That was a fairly good college, even here Tanu maintaied a good reputation. This was where he entered into the field of computer science. Tanu for the whole year did not go to his classes during saturdays even though saturday was a working day. Rather he used to study in his home. Although he was very intrested in computer science, his professors did not teach the subject very well, they always focused on the theory, definitions and nothing about programming and practicles. So he ended up just memorizing the definitions and lab programs. Tanu was very good in maths during those days, he used to solve each and every problem when given as an assignment on the same day. He used to practice hard for all his exams, and he used to argue with his professors by asking them really hard questions, most of the time the questions started with <b>"Why"</b>, because he was very curious in knowing the answers. He ended up getting a good marks in pre uinversity exams as well. Tanu graduated from his pre-university from 2014
+            
+        After graduating from my school, I then joined KLE Independent PU College to continue my further studies, I took a major in PCMC (Physics, Chemistry, Maths, and Computer Science). That was a fairly good college, even here I maintained a good reputation. This is where I entered the field of computer science.  For the whole year, I did not go to my classes on Saturdays even though Saturday was a working day (Sadly). Rather, I used to study in my domicile. Although I was very interested in computer science, my professors did not teach the subject very well, they always focused on the theory, definitions and nothing about programming and practices. So I ended up just memorizing the definitions and lab programs. I was very good at maths during those days. When the assignments were given I used to solve every problem on the same day. I used to practice hard for all my exams, and I used to keep pestering my professors by asking them hard questions, most of the time the questions started with <b>“Why”</b>, because I was very curious in knowing the answers. I ended up getting good marks in pre-university exams. I  graduated from his pre-university in 2014.
+            
         </p>
         <br>
 
         <img src="gat.jpg" class="image" alt="Pineapple" style="width:300px;height:200px;margin-left:15px;">
         <p align = "justify">
-        After graduating from his pre-university, Tanu then joined Global Academy of Technology, to pursue is Bachelors in Computer Science, this is where his life took a elevation in his carreer and played a very important role. He took a major in COmputer Science and this was a 4 year course. This is one of the top ten engineering in bengaluru. Here Tanu was recognised as one of the best student in the entire college, and he was made as the "Brand Ambassador of the College".  Also in his 3 semester he was the third topper for the entire computer science department. Almost all the computer science teacher loved tanu upto a very great extent, some of them even contact him. Especially the principal of the college is tanu's best mentor, he even speaks with tanu. Tanu graduated wiht the one of the top marks in the entire college making him as one of the best students ever. From here tanu's journey began to pursue his higher studies in Canada, all the teachers, professors, including principle helped him to achieve this. All the semesters tanu prabhu had achieved First Class with distinction consistently with the increase in his results. He was teachers favourite. I bet you till today, you can go to his college and ask about tanu and there is no surprise that almost everyone remembers him. Tanu graduated from his college on 2018
+            
+            After graduating from my pre-university, I then joined Global Academy of Technology, to pursue my Bachelors in Computer Science, this is where my life took an eminence in my career and played a very important role. I did a major in Computer Science and this was a 4-year course. This is one of the top ten engineering colleges in Bengaluru. I was recognized here as one of the best students in the entire college, and they made me the <b>Brand Ambassador of the College</b>. Also in my 3rd semester, I was the third topper for the entire computer science department. Almost all the computer science teacher loved me up to a very great extent, some of them even contact me till now. Especially the principal of the college is my best mentor, he even speaks with me today. I graduated with one of the top marks in the entire college making me one of the best students ever. From here my journey began to pursue my higher studies in Canada, all the teachers, professors, including principle helped me to achieve this. All the semesters I achieved a First Class with distinction consistently with the increment in my results. I was a teacher’s favorite. I bet you till today, you can go to my college and ask about me and there is no surprise that you will adequate answers. I graduated from college in 2018.
+        
         </p>
         <br>
+        <hr class="ruler">
+        <h2>Current Life</h2>
 
         <img src="uofR.jpg" class="image" alt="Pineapple" style="width:300px;height:200px;margin-left:15px;">
         <p align = "justify">
-        After graduating from Global Academy of Technology, Tanu then followed his dream of studying Master in Computer Science, so he then started applying to all the universities across Canada. Accoring to tanu's profile he applied for best 8 university in canada including Queens, University of Saskatchewan, Dalhousie, University of Ottawa, University of Regina and 3 more. Then he got acceptance from almost 6 university, and then he finalized to go to University of Regina to pursue his master course. The University of Regina is located in the city Regina which is the capital city of Saskatchewan, it is one the best universities in Canada, now currently tanu is in his 3rd semeseter, and he is residing in Luther College Residence at the University of Regina, which is located inside the main campus. This is where tanu carrer took a new form, this is where he started to lead a independent life, and started to know more about him and the world. This was the starting point of a new life for Tanu, he discovered his inner abilities to write about programming tutorials, he is now the author of 5 publications such as Towards Data Science, Kotlin Academy, Startup, Analytica Vidhya, Data Science from Scratch. He started to write in the month of July and till now he has written over 20 articles and gained more than 100, 000 view and 345 follows with in a short period of time.
+            
+        After graduating from the Global Academy of Technology, I then followed my dream of studying Master in Computer Science, so I then started applying to all the universities across Canada. According to my profile, I applied to the best 8 universities in Canada including Queens, University of Saskatchewan, Dalhousie, University of Ottawa, University of Regina and 3 more. Then I got acceptance from almost 6 universities, and then I decided to go to the University of Regina to pursue my master’s. The University of Regina is located in the city Regina which is the capital city of Saskatchewan, it is one of the best universities in Canada I am in my 3rd semester, and I am living in Luther College Residence at the University of Regina, which is located inside the main campus. This is where my career took a new form, this is where I started to lead an independent life, and started to know more about me and the world. This was the starting point of a new life for me, I discovered his inner abilities to write about programming tutorials; I am now the author of 5 publications such as Towards Data Science, Kotlin Academy, Startup, Analytica Vidhya, Data Science from Scratch. I started to write in July and till now I have written over 20 articles and gained over 100, 000 view and 345 follows within a short period.
+            
+            
         </p>
 
       <!--
@@ -371,12 +428,12 @@
    
     </footer>
     <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="https://github.com/Tanu-N-Prabhu/myWebsite.io">Tanu Nanda Prabhu</a></p></section>
-
+    
 </div> 
     
-      
-    </div>
     
+</div>
+
     
     
     

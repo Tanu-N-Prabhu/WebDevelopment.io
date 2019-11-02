@@ -56,6 +56,31 @@
         .ruler{
             border: 3px solid black; 
         }
+        
+        
+        .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
     
     </style>
     <h1>Welcome, here you can see all my publications up-to-date</h1>
@@ -63,6 +88,7 @@
     <!--   This is for first article -->
 
     <h3>
+
         <a href = "https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701">
         1) Mastering the features of Google Colaboratory !!!    
         </a>
@@ -72,6 +98,13 @@
         <img src="colab.png" class="img-thumbnail" alt="Cinque Terre" width="700" height="700">     
     </div>
     <b>Published on Jun 17 · 6 min read </b>
+    <br>
+    
+  <a  data-toggle="collapse" data-target="#demo" > + Description</a>
+  <div id="demo" class="collapse" align = "justify">
+    Google Colaboratory is a research tool for data science and machine learning. It’s a jupyter notebook environment that requires no setup to use. It is by far one of the most top tools especially for data scientists because you don’t have to manually install all the packages and libraries, just import them directly by calling them. Whereas in normal IDE you have to manually install the libraries. And moreover notebooks are meant for code and explanation, it often should look like a blog post. I have been using Google colab from past two months and it has been the best tool for me. In this blog, I would be giving you guys some tips and tricks about mastering the Google Colab. Stay tuned read all the points, these were the features which even I was struggling to implement at the first place, now I mastered it. Let’s see the top best features of Google Colab notebook.
+  </div>
+
     <hr class="ruler">
 
   
@@ -87,9 +120,16 @@
         <img src="dataCleaning.png" class="img-thumbnail" alt="Cinque Terre" width= "700" height="700"> 
     </div>
     <b>Published on Jun 21 · 4 min read </b>
+    <br>
+    
+        <a  data-toggle="collapse" data-target="#demo1" > + Description</a>
+  <div id="demo1" class="collapse" align = "justify">
+    Even though this tutorial is small, but it’s a good way to start on small things and get our hands dirty later on. I will make sure that everyone with no prior experience in python programming or don’t know what is data science or data cleaning can easily understand this tutorial. I did not know python in the first place, so even for me, this was a good place to start. One thing with python is that the code is self-explanatory, your focus should not be what the code does, because the code pretty much says what it does, rather you should tell why did you choose to do this, the “why” factor is important than the “what” factor.
+  </div>
+    
     <hr class="ruler">
     
-    
+ 
     
     <!-- This is for the third article -->
      <h3>
@@ -102,6 +142,8 @@
         <img src="pandas%20manipulation.png" class="img-thumbnail" alt="Cinque Terre" width= "700" height="700"> 
     </div>
     <b>Published on Jul 3 · 8 min read </b>
+    <br>
+
     <hr class="ruler">
     
         
@@ -143,7 +185,6 @@
         <img src="webscraping.png" class="img-thumbnail" alt="Cinque Terre" width= "700" height="700"> 
     </div>
     <b>Published on Jul 17 · 6 min read </b>
-    <hr class="ruler">
     
     
 </div>

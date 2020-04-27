@@ -1,495 +1,139 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Home Page</title>
+    
+  <!-- Necessary libraries and hyper-links for the website -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="CSS/publications.css">
+
 </head>
-<body style="background-color:gainsboro;">
-
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="TNP.html">TNP's HUB</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-           <!--
-        <li class="dropdown">
-           
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>
--->
-        <li><a href="publications.html">Publications</a></li>
-                        <li><a href ="photo_gallery.html">Photo Gallery</a></li>
-
-
-      </ul>
-        <!--
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
--->
-    </div>
-  </div>
-</nav>
-<div class="container" style="margin-top:50px">
-    
-    <style>
-        .ruler{
-            border: 3px solid black; 
-        }
-        
-        
-        .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-    
-    </style>
-    <h1>Welcome to my publications page</h1>
-    <h3>I have written 22 articles till date</h3>
- 
-    <!--   This is for first article -->
-
-    <h3>
-
-        <a href = "https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701">
-        1) Mastering the features of Google Colaboratory !!!    
-        </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/colab.png" class="img-thumbnail" alt="Cinque Terre" width="1500" height="500">     
-    </div>
-    <h3>Published on Jun 17 · 6 min read </h3>
    
+<body>
     
-    <a  data-toggle="collapse" data-target="#demo" > <h4>+ Description</h4></a>
-  <div id="demo" class="collapse" align = "justify">
-    Google Colaboratory is a research tool for data science and machine learning. It’s a jupyter notebook environment that requires no setup to use. It is by far one of the most top tools especially for data scientists because you don’t have to manually install all the packages and libraries, just import them directly by calling them. Whereas in normal IDE you have to manually install the libraries. And moreover notebooks are meant for code and explanation, it often should look like a blog post. I have been using Google colab from past two months and it has been the best tool for me. In this blog, I would be giving you guys some tips and tricks about mastering the Google Colab. Stay tuned read all the points, these were the features which even I was struggling to implement at the first place, now I mastered it. Let’s see the top best features of Google Colab notebook.
-  </div>
-
-    <hr class="ruler">
-
-  
-     <!--   This is for second article -->
     
-    <h3>
-    <a href = "https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb">
-    2) Data Cleaning using Python with Pandas Library.    
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/dataCleaning.png" class="img-thumbnail" alt="Cinque Terre" width="1500" height="500"> 
-    </div>
-    <h3>Published on Jun 21 · 4 min read </h3>
-  
-    
-    <a  data-toggle="collapse" data-target="#demo1" > <h4>+ Description</h4></a>
-  <div id="demo1" class="collapse" align = "justify">
-    Even though this tutorial is small, but it’s a good way to start on small things and get our hands dirty later on. I will make sure that everyone with no prior experience in python programming or don’t know what is data science or data cleaning can easily understand this tutorial. I did not know python in the first place, so even for me, this was a good place to start. One thing with python is that the code is self-explanatory, your focus should not be what the code does, because the code pretty much says what it does, rather you should tell why did you choose to do this, the “why” factor is important than the “what” factor.
-  </div>
-    
-    <hr class="ruler">
-    
- 
-    
-    <!-- This is for the third article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/manipulating-the-data-with-pandas-using-python-be6c5dfabd47">
-    3) Manipulating the data with Pandas using Python.   
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/pandas%20manipulation.png" class="img-thumbnail" alt="Cinque Terre" width="1500" height="500"> 
-    </div>
-    <h3>Published on Jul 3 · 8 min read </h3>
-  <a  data-toggle="collapse" data-target="#demo2" > <h4>+ Description</h4></a>
-  <div id="demo2" class="collapse" align = "justify">
-    Before getting started let me introduce you Pandas, Pandas is a python library which provided high-performance, easy to use data structures such as series, Data Frame and Panel for data analysis tools for Python programming language. In order to use the pandas library and its data structures all, you have to do it to install it and import it. See the documentation of the Pandas library for more better understanding and installing guidance.
-  </div>
-
-    <hr class="ruler">
-    
+     <!-- Navigation bar code -->
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
         
-    <!-- This is for the fourth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/python-lists-from-scratch-4b958eb956fc">
-    4) Python Lists from Scratch !!!
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/list.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
+      <!-- This is for the 3 horizontal lines for responsive -->   
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand" >TNP's HUB</a>
+      </div>
+        
+        
+      <!-- Navigation bar options code -->
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+            <a href="index.html">Home</a>
+            </li>
+            <li>
+            <a href="publications.html">Publications</a>
+            </li>
+            <li>
+            <a href="photo_gallery.html">Photo Gallery</a>
+            </li>
+            
+            <!--This is for the slider for dark mode -->
+            <li><label class="switch">
+            <input type="checkbox" unchecked   onclick="myFunction()" >
+            <span class="slider round"></span>
+            </label></li>
+            
+        </ul>
+      </nav>
     </div>
-    <h3>Published on Jul 10 · 8 min read </h3>
-      <a  data-toggle="collapse" data-target="#demo3" > <h4>+ Description</h4></a>
-  <div id="demo3" class="collapse" align = "justify">
-    The list is a data structure in Python which acts as a container to hold or store multiple data at the same time. Lists are mutable or changeable and ordered sequence of elements. To know more about Python Lists you can visit the official Python Lists documentation. One thing you have to keep in mind is that often we must declare lists using [ ] brackets. The elements inside the [ ] are the values of the list.
-  </div>
-    <hr class="ruler">
+  </header>
+    
+    <!-- Article 1 -->
+     <div class="w3-container">
+            <h1 align = "center" style="margin-top: 100px"><b>Welcome To My Publications Page</b></h1>
+            <br>
+         <div class="w3-card-4" style="width:75%;">
+             <!-- Header for the articles -->
+            <header class="w3-container">
+                <h3><b>Mastering the features of Google Colaboratory</b></h3>
+                <b>Published on June 17, 2019</b>
+            </header>
+
+             <!-- Image -->
+            <div class="w3-container">
+                <div class="center">
+                <img src="Img/colab.png" class="img-thumbnail" alt="Cinque Terre" width=100%>     
+                </div>
+
+                <a  data-toggle="collapse" data-target="#demo" > <h4>+ Description</h4></a>
+                <div id="demo" class="collapse" align = "justify">
+                    
+                   <!-- Description  -->
+                   <p>Google Colaboratory is a research tool for data science and machine learning. It’s a jupyter notebook environment that requires no setup to use. It is by far one of the most top tools especially for data scientists because you don’t have to manually install all the packages and libraries, just import them directly by calling them. Whereas in normal IDE you have to manually install the libraries. And moreover notebooks are meant for code and explanation, it often should look like a blog post. I have been using Google colab from past two months and it has been the best tool for me. In this blog, I would be giving you guys some tips and tricks about mastering the Google Colab. Stay tuned read all the points, these were the features which even I was struggling to implement at the first place, now I mastered it. Let’s see the top best features of Google Colab notebook.
+                   <a href = "https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701?source=friends_link&sk=3ce41ebdfd2bfa577fbe8346263a2d26">
+                   <br>
+                   <b>Read More</b></a>
+                   </p>
+                    
+                </div>
+            </div>
+
+        <hr class="ruler">    
+        </div>
+    </div>
     
     
-     <!-- This is for the fifth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/python-pandas-data-frame-basics-b5cfbcd8c039">
-    5) Python Pandas Data Frame Basics.
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/data%20frame.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Jul 17 · 6 min read</h3>
-          <a  data-toggle="collapse" data-target="#demo4" > <h4>+ Description</h4></a>
-  <div id="demo4" class="collapse" align = "justify">
-    Before getting started let me introduce you about Pandas, Pandas is a python library that provides high-performance, easy-to-use data structures such as a series, Data Frame and Panel for data analysis tools for Python programming language. Moreover, Pandas Data Frame consists of main components, the data, rows, and columns. To use the pandas library and its data structures, all you have to do it to install it and import it. See the documentation of the Pandas library for a better understanding and installing guidance. Here the entire code can be found on my GitHub page.
-  </div>
-    <hr class="ruler">
+        <!-- Article 2 -->
     
-    <!-- This is for the sixth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/web-scraping-using-python-libraries-fe3037152ed1">
-    6) Web Scraping Using Python Libraries.
-    </a>
-    </h3>
+         <div class="w3-card-4" style="width:75%;">
+             <!-- Header for the articles -->
+            <header class="w3-container">
+                <h3><b>Data Cleaning using Python with Pandas Library.</b></h3>
+                <b>Published on Jun 21, 2019</b>
+            </header>
 
-    <div class="center">
-        <img src="Img/webscraping.png" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Jul 17 · 6 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo5" > <h4>+ Description</h4></a>
-  <div id="demo5" class="collapse" align = "justify">
-    Today we will be scraping “Rate My Professor” website. A little insight about Rate My Professor website, it is a website that contains a rating of school, professors and universities. You can search for any professor or school and get their ratings before taking or joining to their courses. It’s a handy feature which helps to know more about your professor or the university that you want to join. In this tutorial, we shall see how to scrape and to extract a specific professor’s tag. I warn you guys this is not illegal but the mass scraping of data from the website can lead your IP address being blocked. Just do it once or twice, but don’t just foolishly put it in a loop and try to put request inside the loop.
-    </div>
-    <hr class="ruler">
-    
-    
-    <!-- This is for the seventh article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/scraping-two-youtube-accounts-using-python-libraries-6af17f2071dd">
-    7) Scraping two YouTube accounts using python libraries.
-    </a>
-    </h3>
+             <!-- Image -->
+            <div class="w3-container">
+                <div class="center">
+                <img src="Img/dataCleaning.png" class="img-thumbnail" alt="Cinque Terre" width=100%>     
+                </div>
 
-    <div class="center">
-        <img src="Img/YouTube.png" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Aug 1 · 5 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo6" > <h4>+ Description</h4></a>
-    <div id="demo6" class="collapse" align = "justify">
-    I have chosen to scrape two YouTube accounts, named “PewDiePie” and “T-Series,” and report the subscriber difference. I have been a diehard fan of PewDiePie for the past 4 years, and he was the number one YouTuber in terms of his subscribers, up until the last six to ten months. At this point, T-series arrived and eventually outperformed and dethroned PewDiePie, setting a record and becoming the most subscribed channel (apart from YouTube’s own music channel). I did not like T-Series taking over, or how the sub-gap between T-Series and PewDiePie continues to increase drastically. In addition, this subscription gap was one of the biggest controversies in YouTube’s history, which is another reason why I chose to scrape this data. I have a strong feeling that eventually PewDiePie will surpass T-Series again, and remain as the number one YouTuber forever. Scraping these accounts and determining the subscriber gap will allow me to state with accuracy how close PewDiePie is to regain the title of the most subscribed YouTuber.
+                <a  data-toggle="collapse" data-target="#demo" > <h4>+ Description</h4></a>
+                <div id="demo" class="collapse" align = "justify">
+                    
+                   <!-- Description  -->
+                   <p>Even though this tutorial is small, but it’s a good way to start on small things and get our hands dirty later on. I will make sure that everyone with no prior experience in python programming or don’t know what is data science or data cleaning can easily understand this tutorial. I did not know python in the first place, so even for me, this was a good place to start. One thing with python is that the code is self-explanatory, your focus should not be what the code does, because the code pretty much says what it does, rather you should tell why did you choose to do this, the “why” factor is important than the “what” factor.
+                   <a href = "https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb">
+                   <br>
+                   <b>Read More</b></a>
+                   </p>
+                    
+                </div>
+            </div>
 
-    </div>
-    <hr class="ruler">
-    
-    <!-- This is for the eight article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce">
-    8) Exploratory data analysis in Python.
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/EDA1.jpg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Aug 10 · 9 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo7" > <h4>+ Description</h4></a>
-    <div id="demo7" class="collapse" align = "justify">
-    Exploratory Data Analysis or (EDA) is understanding the data sets by summarizing their main characteristics often plotting them visually. This step is very important especially when we arrive at modeling the data in order to apply Machine learning. Plotting in EDA consists of Histograms, Box plot, Scatter plot and many more. It often takes much time to explore the data. Through the process of EDA, we can ask to define the problem statement or definition on our data set which is very important.
-
-    </div>
-    <hr class="ruler">
-    
-        <!-- This is for the ninth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/python-strings-from-scratch-afd5ad034de8">
-    9) Python Strings from scratch !!!
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/Strings.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Aug 12 · 4 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo8" > <h4>+ Description</h4></a>
-    <div id="demo8" class="collapse" align = "justify">
-    Strings are a sequence of characters which can be stored either as a constant or a different variable. Strings are considered as a datatype. Typically, programmers must enclose strings in quotation marks for the data to recognized as a string and not a number or variable name. Shown below are some of the most used string methods on a daily basis and are one of the most commonly asked interview questions. Also, the code can be found on my GitHub page.
-    </div>
-    <hr class="ruler">
-    
-            <!-- This is for the tenth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/python-tuples-from-scratch-43affe1751ba">
-    10) Python Tuples from Scratch !!!
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/tuples.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Aug 16 · 5 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo9" > <h4>+ Description</h4></a>
-    <div id="demo9" class="collapse" align = "justify">
-   Before starting I would like to tell you, I will write this tutorial in a question-and-answer format because it will be helpful especially during interviews. And throughout the tutorial, I will work only on a single example to maintain the uniformity. The entire code of this tutorial can be found on my GitHub page.
-    </div>
-    <hr class="ruler">
-    
-                <!-- This is for the eleventh article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/exploring-the-data-using-python-47c4bc7b8fa2">
-    11) Exploring the data using python.
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/EDA2.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Aug 29 · 11 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo10" > <h4>+ Description</h4></a>
-    <div id="demo10" class="collapse" align = "justify">
-        In this tutorial, we will use the exploratory data analysis approach to summarize and analyze the main characteristics of a cars data set.Let us understand how to explore the data using python and later build a machine learning model on that data in the next tutorial. The entire code for this tutorial can be found on my GitHub repository.
-    </div>
-    <hr class="ruler">
-    
-    <!-- This is for the twelth article -->
-     <h3>
-    <a href = "https://medium.com/analytics-vidhya/building-a-machine-learning-model-to-predict-the-price-of-the-car-bc51783ba2f3">
-    12) Building a Machine Learning Model to Predict the Price of the Car
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/ML.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Sep 4 · 14 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo11" > <h4>+ Description</h4></a>
-    <div id="demo11" class="collapse" align = "justify">
-        In this tutorial, we will learn how to build a machine learning model using python which predicts the price of the cars.
-    </div>
-    <hr class="ruler">
-    
-       <!-- This is for the thirteenth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/python-dictionary-from-scratch-c41316794bcc">
-    13) Python Dictionary from Scratch!!!
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/Dict.png" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Sep 9 · 4 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo12" > <h4>+ Description</h4></a>
-    <div id="demo12" class="collapse" align = "justify">
-        Dictionary in python comprises an unordered collection of data stored in a key: value format. Dictionary is also known as “Associative memories” or “Associative arrays”. In a dictionary, the key must always be unique. Whereas the values can be repeated and can be of any data type. The key-value pair should be represented as “key: value” (: colon is a must). Shown below are some most used dictionary methods and are one of the most commonly asked interview questions. Also, the code can be found on my GitHub page.
-    </div>
-    <hr class="ruler"> 
+        <hr class="ruler">    
+        </div>
     
     
     
-           <!-- This is for the fourteenth article -->
-     <h3>
-    <a href = "https://blog.kotlin-academy.com/8-minute-crash-course-on-kotlin-programming-language-e8a804ed3d8a">
-    14) 8-Minute Crash Course on Kotlin Programming Language.
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/Kotlin.png" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Sep 13 · 8 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo13" > <h4>+ Description</h4></a>
-    <div id="demo13" class="collapse" align = "justify">
-        Kotlin is a cross-platform, statically typed and general-purpose programming language. I know that I have used some vague terms let me clarify it. Cross-platform: It means that the system or the product can work across multiple platforms or operating system environments. For example Microsoft Excel, Word, Powerpoint works on both Windows and Macintosh Operating systems. Statically typed: Statically typed means that the variables used in the program must explicitly be declared along with their types (data type). For example, C, Java, Kotlin and many more are statically typed. Consider the below C programming code for statically typed programming.
-    </div>
-    <hr class="ruler">
     
     
     
-           <!-- This is for the fifteen article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/predicting-pewdiepies-daily-subscribers-using-linear-regression-15da7bd28f85">
-    15) Predicting PewDiePie’s daily subscribers using Linear Regression.
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/PewDiePie.png" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Sep 25 · 8 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo14" > <h4>+ Description</h4></a>
-    <div id="demo14" class="collapse" align = "justify">
-  PewDiePie is a Swedish YouTuber and has 100 million subscribers on YouTube (He is my favorite). He gains thousands of subscribers every day, so I thought of writing a tutorial about his gain in subscribers. So I wanted to show you guys a practical implementation of Machine Learning’s Linear Regression Algorithm. Here we can apply linear regression to predict his daily YouTube subscribers. I will guide you guys throughout this tutorial how to do so. The entire code for this tutorial can be found on my GitHub. I will not explain the theory behind linear regression algorithms, because, according to me, the theory is not so important only the implementation is very important, because you need to know how and where to apply the algorithm. 
-    </div>
-    <hr class="ruler">
+<!-- This is the javascript code for the slider of dark mode -->    
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>  
+    </body>
     
-             <!-- This is for the sixteenth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/top-python-libraries-used-in-data-science-a58e90f1b4ba">
-    16) Top Python Libraries Used In Data Science
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/DS.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Oct 2 · 9 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo15" > <h4>+ Description</h4></a>
-    <div id="demo15" class="collapse" align = "justify">
-  Data Science, as you all know, it is the process involved in studying the data. Yes, all you got to do is study the data and get new insights from the data. Here there is no need to focus on applying from scratch or learning new algorithms, all you need to know is learn how to approach the data and solve the problem. One of the key things that you need to know is using appropriate libraries to solve a data science problem. This article is all about providing the context to the important libraries used in Data Science. Before dwelling into the topic I would like to introduce the 5 primitive steps involved in solving a data science problem. Now I have sat down and designed these steps from scratch, so there is no right or wrong answer, the correct answer depends on how you approach the data. 
-    </div>
-    <hr class="ruler">
     
-               <!-- This is for the seventeenth article -->
-     <h3>
-    <a href = "https://blog.kotlin-academy.com/android-animation-using-kotlin-ef385b5b5dea">
-    17) Android Animation Using Kotlin
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/Kotlin1.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Oct 6 · 7 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo16" > <h4>+ Description</h4></a>
-    <div id="demo16" class="collapse" align = "justify">
-  In this tutorial, you will learn an easy way to perform animation in Android Studio using Kotlin programming language. I have tried my level best to provide good documentation and all the guidance to make this tutorial more readable. 
-    </div>
-    <hr class="ruler">
-    
-                  <!-- This is for the eighteenth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/how-to-get-started-coding-in-python-41fa7ea5106b">
-    18) How to get started coding in Python?
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/Python.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Oct 11 · 7 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo17" > <h4>+ Description</h4></a>
-    <div id="demo17" class="collapse" align = "justify">
-  So friends let us learn all the things that you need to get started before actually coding in python and what all things that you need to know to become a good python programmer, what resources you need to master the programming language. This is not a coding tutorial, I will not be teaching you guys how to code in Python, rather I will share you some ideas, resources brief through some steps that you need to follow to become a good programmer. I’ll try not to make you feel bored, I’ll provide you with all the links of tutorials, books, GitHub repositories, and many more. Because it doesn’t matter how you learn the content but all that matters is whether you know the concepts. Don’t worry for all those beginners who have never coded in python before this tutorial is mainly for you, because this is the right place to get started. I will give you insights about my experience and make you master python programming. I’m again repeating this is not a coding tutorial because I cannot teach you python from scratch in one stretch, however, I will provide you enough content to get you started.
-    </div>
-    <hr class="ruler">
-    
-                      <!-- This is for the ninteenth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/python-eval-built-in-function-601f87db191">
-    19) Python eval() built-in-function
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/eval.png" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Oct 18 · 3 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo18" > <h4>+ Description</h4></a>
-    <div id="demo18" class="collapse" align = "justify">
-  This would be a short article about eval function in python, wherein I would be explaining to you about eval function, its syntax, and few questions that are often asked in interviews so that you clearly understand it and answer those questions in ease.
-    </div>
-    <hr class="ruler">
-    
-                          <!-- This is for the twentyth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/python-range-built-in-function-b2489ea99660">
-    20) Python range() built-in-function
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/range.png" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Oct 25 · 5 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo19" > <h4>+ Description</h4></a>
-    <div id="demo19" class="collapse" align = "justify">
-  Now let us understand the concept of range function() in python, below shown are the concepts along with examples that will help you guys to understand the range() in a clear way.
-    </div>
-    <hr class="ruler">
-    
-                              <!-- This is for the twenthyoneth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/using-the-pandas-data-frame-as-a-database-282edec5a3ab">
-    21) Using the Pandas Data Frame as a Database.
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/pandas.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Nov 1 · 6 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo20" > <h4>+ Description</h4></a>
-    <div id="demo20" class="collapse" align = "justify">
-  Before starting let me quickly tell about the pandas data frame: It is a python library that provides high performance, and easy-to-use data structure for data analysis tools for python programming language. Below is an article that explains the primitive manipulations performed on the pandas data frame.
-    </div>
-    <hr class="ruler">
-    
-                                  <!-- This is for the twenty secondth article -->
-     <h3>
-    <a href = "https://towardsdatascience.com/is-python-object-oriented-834d6c70cf54">
-    22) Is Python object-oriented?
-
-    </a>
-    </h3>
-
-    <div class="center">
-        <img src="Img/python1.jpeg" class="img-thumbnail" alt="Cinque Terre" width= "1500" height="500"> 
-    </div>
-    <h3>Published on Nov 5 · 4 min read </h3>
-              <a  data-toggle="collapse" data-target="#demo21" > <h4>+ Description</h4></a>
-    <div id="demo21" class="collapse" align = "justify">
-  Well Is Python an object oriented programming language? Yes, it is. With the exception of control flow, everything in Python is an object. By Max Fischer, who answers this question in Quora.
-    </div>
-    <hr class="ruler">
-    
-</div>
-
-    
-

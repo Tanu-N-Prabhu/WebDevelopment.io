@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+  <title>Home Page</title>
+    
+  <!-- Necessary libraries and hyper-links for the website -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="CSS/academicsStyles.css">
+
+</head>
+   
+<body>
+    
+    
+     <!-- Navigation bar code -->
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+        
+      <!-- This is for the 3 horizontal lines for responsive -->   
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand" >TNP's HUB</a>
+      </div>
+        
+        
+      <!-- Navigation bar options code -->
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+            <a href="index.html">Home</a>
+            </li>
+            <li>
+            <a href="publications.html">Publications</a>
+            </li>
+            <li>
+            <a href="photo_gallery.html">Photo Gallery</a>
+            </li>
+            
+            <!--This is for the slider for dark mode -->
+            <li><label class="switch">
+            <input type="checkbox" unchecked   onclick="myFunction()" >
+            <span class="slider round"></span>
+            </label></li>
+            
+        </ul>
+      </nav>
+    </div>
+  </header>
+    
+    
+     <div class="container">
+     <img class="center-block img-responsive" src="Img/uofrLogo.jpg" alt="Chania" width="2000" height="1000" style="margin-top: 100px"> 
+     <br>
+         
+    <p align = "justify">Welcome to the academics page. In this page, you can find the latest information about my degree, program, courses, projects and research work. Also, you can find my grade at the below of each courses listed. I started my graduate program in the month of January 2020, Winter Semester at the University of Regina, Canada. I am currently pursuing my Master's in Computer Science. I'm in my last semester now. </p>
+         
+    <hr class="ruler">    
+
+    <h2>Courses taken through my graduate program</h2>
+
+    <div class="card">
+        <h3><b>CS 834 - Fundamentals of Computer Systems Security</b></h3> 
+        <p align = "justify">This course presents the objectives and the fundamentals of computer and network system security: confidentiality, integrity, availability, authentication, and authorization. Common security concepts are detailed, such as cryptography, symmetric/asymmetric encryption, digital signature, certificate authority, hashing, communication protocol security, and audit. Mathematical foundations and applications of these methods will be explained.</p> 
+        
+        <h5><b>Professor: Habib Louafi</b></h5>
+        <h5><b>Total Credit Hours: 3</b></h5>
+        <h3><b>Necessary Requirements of the course</b></h3>
+        <ul>
+            <li><a href="https://github.com/Tanu-N-Prabhu/Fundamentals-of-Computer-Systems-Security/tree/master/Assignments">Assignments</a></li>
+            <li><a href = "https://github.com/Tanu-N-Prabhu/Fundamentals-of-Computer-Systems-Security/tree/master/Final%20Project">Project</a></li>
+        </ul>
+        <br>
+        
+       <table id="customers">
+          <tr>
+            <th>Credit Hours</th>
+            <th>Grade</th>
+            <th>Class Average</th>
+          </tr>
+          <tr>
+              <td>3 Hours</td>
+            <td>90</td>
+              <td>80</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+
+    </div>
+
+     </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!----------- Footer ------------>
+    <div class="container">
+    <section style="height:80px;"></section>
+	<div class="row" style="text-align:center;">
+	
+	</div>
+    <footer class="footer-bs">
+        <div class="row">
+        	<div class="col-md-4 footer-brand animated fadeInLeft">
+            	<h2>About this website</h2>
+                <p align = "justify">This website is more like my resume, this is a portfolio. Here in this website you can find all the achievements, awards, publications and many more. Take a deep breadth and surf the website.</p>
+                <p><b>© 2020 Canada, All rights reserved</b></p>
+            </div>
+        	<div class="col-md-4 footer-social animated fadeInDown">
+            	<h4>Menu -</h4>
+            	
+            	<div class="col-md-6">
+                    <ul >
+                        <li><a href="#">TNP's HUB</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Profile Card</a></li>
+                        <li><a href "#">Photo Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4>Follow Me -</h4>
+            	<ul>
+                	<li><a href="#">Facebook</a></li>
+                	<li><a href="#">Twitter</a></li>
+                	<li><a href="#">Instagram</a></li>
+                	<li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+   
+    </footer>
+    <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="https://github.com/Tanu-N-Prabhu/myWebsite.io">Tanu Nanda Prabhu</a></p></section>
+
+</div> 
+    
+    
+    
+<!-- This is the javascript code for the slider of dark mode -->    
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>  
+    </body>
+    
+    

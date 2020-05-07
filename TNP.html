@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
@@ -8,7 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:gainsboro;">
+<body>
     <style>
         #customers 
         {
@@ -19,23 +18,21 @@
 
         #customers td, #customers th 
         {
-          border: 1px solid #ddd;
+          border: 3px solid;
           padding: 8px;
         }
 
         .ruler
         {
-        border: 3px solid black; 
+        border: 3px solid; 
         }
 
         #customers tr:nth-child(even)
         {
-            background-color: #f2f2f2;
         }
 
         #customers tr:hover 
         {
-            background-color: #ddd;
         }
 
         #customers th 
@@ -43,8 +40,6 @@
           padding-top: 12px;
           padding-bottom: 12px;
           text-align: left;
-          background-color: #000000;
-          color: white;
         }
 
         ul.a 
@@ -78,155 +73,438 @@
         }
         
         .footer-bs {
-    background-color: #3c3d41;
+    background-color: black;
 	padding: 60px 40px;
 	color: rgba(255,255,255,1.00);
 	margin-bottom: 20px;
 	border-bottom-right-radius: 6px;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 6px;
+        }
+        .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+        .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+        .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+        .footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+        .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+        .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+        .footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+        .footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+        .footer-bs .footer-nav h4 {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom:10px;
+        }
+
+        .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+        .footer-bs .footer-nav ul.list li { padding:5px 0px;}
+        .footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+        .footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+        .footer-bs .footer-social ul { list-style:none; padding:0px; }
+        .footer-bs .footer-social h4 {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .footer-bs .footer-social li { padding:5px 4px;}
+        .footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+        .footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+        .footer-bs .footer-ns h4 {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom:10px;
+        }
+        .footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+        @media (min-width: 768px) {
+            .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+        }
+
+                <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #008CBA;
+        }
+
+        .container:hover .overlay {
+          opacity: 1;
+        }
+
+
+               img.center-block{
+                    border-radius: 200px;
+                }
+
+
+        .text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+
+                * {
+            box-sizing: border-box;
+          }
+
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+          }
+
+          /* Float four columns side by side */
+          .col-sm-4 {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+
+          }
+
+          /* Remove extra left and right margins, due to padding */
+          .row {margin: 0 -5px;}
+
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* Responsive columns */
+          @media screen and (max-width: 600px) {
+            .column {
+              width: 100%;
+              display: block;
+              margin-bottom: 20px;
+            }
+          }
+
+          /* Style the counter cards */
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+          }
+          @import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+        .navbar-brand {
+          font-family: 'Montserrat', sans-serif;
+          text-transform: uppercase
+        }
+
+        .navbar .nav {
+          font-family: 'Open Sans', sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-size: 1.2rem
+        }
+
+        .navbar-inverse {
+          background-color: black
+        }
+
+        .navbar-inverse .navbar-nav>.active>a:hover,
+        .navbar-inverse .navbar-nav>li>a:hover,
+        .navbar-inverse .navbar-nav>li>a:focus {
+          background-color: black
+        }
+
+        .navbar-inverse .navbar-nav>.active>a,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a:hover,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a:hover,
+        .navbar-inverse .navbar-nav>.open>a:focus {
+          background-color: black
+        }
+
+        .dropdown-menu {
+          background-color: black
+        }
+
+        .dropdown-menu>li>a:hover,
+        .dropdown-menu>li>a:focus {
+          background-color: #002200
+        }
+
+        .navbar-inverse {
+          background-image: none;
+        }
+
+        .dropdown-menu>li>a:hover,
+        .dropdown-menu>li>a:focus {
+          background-image: none;
+        }
+
+        .navbar-inverse {
+          border-color: black
+        }
+
+        .navbar-inverse .navbar-brand {
+          color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-brand:hover {
+          color: #FFCC00
+        }
+
+        .navbar-inverse .navbar-nav>li>a {
+          color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>li>a:hover,
+        .navbar-inverse .navbar-nav>li>a:focus {
+          color: #FFCC00
+        }
+
+        .navbar-inverse .navbar-nav>.active>a,
+        .navbar-inverse .navbar-nav>.open>a,
+        .navbar-inverse .navbar-nav>.open>a:hover,
+        .navbar-inverse .navbar-nav>.open>a:focus {
+          color: #FFCC00
+        }
+
+        .navbar-inverse .navbar-nav>.active>a:hover,
+        .navbar-inverse .navbar-nav>.active>a:focus {
+          color: #FFCC00
+        }
+
+        .dropdown-menu>li>a {
+          color: #FFFFFF
+        }
+
+        .dropdown-menu>li>a:hover,
+        .dropdown-menu>li>a:focus {
+          color: #FFCC00
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a .caret {
+          border-top-color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+          border-top-color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a .caret {
+          border-bottom-color: #FFFFFF
+        }
+
+        .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+          border-bottom-color: #FFFFFF
+        } 
+        
+      
+        
+        .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
-.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
-.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
-.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
-.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
 
-.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
-.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
-.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
-.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
-.footer-bs .footer-nav h4 {
-	font-size: 11px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin-bottom:10px;
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
 
-.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
-.footer-bs .footer-nav ul.list li { padding:5px 0px;}
-.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
-.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
-
-.footer-bs .footer-social ul { list-style:none; padding:0px; }
-.footer-bs .footer-social h4 {
-	font-size: 11px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-}
-.footer-bs .footer-social li { padding:5px 4px;}
-.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
-.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
-
-.footer-bs .footer-ns h4 {
-	font-size: 11px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin-bottom:10px;
-}
-.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
-
-@media (min-width: 768px) {
-	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
         
-        <style>
-.container {
-  position: relative;
-  width: 50%;
+        body {
+background-color: white;
+color: black;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+.dark-mode {
+background-color: black;
+color: white;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+.switch {
+position: relative;
+display: inline-block;
+width: 60px;
+height: 34px;
+margin-top: 8px
 }
 
-.container:hover .overlay {
-  opacity: 1;
+.switch input { 
+opacity: 0;
+width: 0;
+height: 0;
 }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
 }
+
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+
+.tooltip {
+position: relative;
+display: inline-block;
+border-bottom: 1px dotted black;
+}
+a{
+color: blue;
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+p{
+font-size: 17px;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+        
+    
     </style>
 
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="TNP.html">TNP's HUB</a>
-        </div>
-          
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-              
-            <!--
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-              </ul>
-            </li>
-            -->
-              
-            <li><a href="publications.html">Publications</a></li>
-                            <li><a href ="photo_gallery.html">Photo Gallery</a></li>
-
-          </ul>
-            
-            <!--
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-          </ul>
-            -->
-            
-        </div>
+     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="./" class="navbar-brand" >TNP's HUB</a>
       </div>
-    </nav>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <li>
+            <a href="index.html">Home</a>
+            </li>
+          </li>
+          <li>
+            <a href="#">Publications</a>
+          </li>
+           <li>
+            <a href="#">Photo Gallery</a>
+          </li>
+             <li>
+            <a href = "academics.html">Academics</a>
+            </li>
+           <!--This is for the slider for dark mode -->
+            <li><label class="switch">
+            <input type="checkbox" unchecked   onclick="myFunction()" >
+            <span class="slider round"></span>
+            </label></li>
+    
+        </ul>
+      </nav>
+    </div>
+  </header>
 
     <div class="container" style="margin-top:50px">
-      <h2 align = "center">Tanu Nanda Prabhu</h2>
-      <img class="center-block img-responsive" src="Img/tanu.jpg" alt="Chania" width="400" height="500"> 
+        <h1 align = "center"><b>Tanu Nanda Prabhu</b></h1>
+      <img class="center-block img-responsive" src="Img/tnpHub1.jpeg" alt="Chania" width="250" height="50"> 
         <br>
         <br>
         
-        <h2>About me</h2>
+        <h2><b>About me</b></h2>
         <p align = "justify">This is me, Tanu Nanda Prabhu, I’m doing my Master’s in Computer Science, at the University of Regina, Canada. Although I’m good at programming, definitely not a code monkey. I like to document every line of code and help others understand it. It is very important to document the code. I believe that I learn simultaneously while I also teach. Hence I write tutorials and critique other works and improve it. I live in Luther College Residence at the University of Regina. I was born and brought up in Bangalore, Karnataka, India.</p>
+        <br>
 
-        <hr class="ruler">
 
         <!-- Table for Biography -->
         
-        <h4>Biography</h4>
         
         <table id="customers">
           <tr>
@@ -234,64 +512,64 @@
             <th>Contact</th>
           </tr>
           <tr>
-            <td>Born</td>
+              <td><b>Born</b></td>
             <td>31, May, 1996 or 1 June, 1996 (age 23), Bengaluru, India</td>
           </tr>
 
 
         <tr>
-            <td>Residence</td>
+            <td><b>Residence</b></td>
             <td>Luther College Residence, Room No 251, Regina, Canada</td>
           </tr>
 
               <tr>
-            <td>Nationality</td>
+                  <td><b>Nationality</b></td>
             <td>India</td>
           </tr>
 
                <tr>
-            <td>Original Residence</td>
+                   <td><b>Original Residence</b></td>
             <td>#593, Sri Gowri, 6th Block Rajajinagar, Bengaluru, India</td>
           </tr>
 
 
                <tr>
-            <td>Occupation</td>
+                   <td><b>Occupation</b></td>
             <td>Student (Pursuing Master in COmputer Science at the UofR), Author, Programmer</td>
           </tr>
 
 
                <tr>
-            <td>Known for</td>
+                   <td><b>Known for</b></td>
             <td>Writing</td>
           </tr>
 
 
                <tr>
-            <td>Title</td>
+                   <td><b>Title</b></td>
             <td>Computer Scientist (I kept it)</td>
           </tr>
 
                <tr>
-            <td>Parents</td>
+                   <td><b>Parents</b></td>
             <td>R. Nanda Kumar (Dad), B. Jyothi (Mom)</td>
           </tr>
 
                <tr>
-            <td>Website</td>
+                   <td><b>Website</b></td>
             <td><a href = "https://github.com/Tanu-N-Prabhu/Python">GitHub.com</a></td>
           </tr>
 
                <tr>
-            <td>Signature</td>
-            <td><img src = "Img/signature.jpg" width= "150" height="50"></td>
+                   <td><b>Signature</b></td>
+            <td><img src = "Img/signature.png" width= "150" height="50"></td>
           </tr>
 
         </table>
 
-        <hr class="ruler">
+        <br>
 
-        <h2>Early Life</h2>
+        <h2><b>Early Life</b></h2>
         <p align = "justify">
         
         I was born in Bengaluru, Karnataka, India on May 31, 1996. I am the son of R. Nanda Kumar (Dad) and B. Jyothi (Mom). My ancestors are all Indians. My dad was a head chef in ITC Canteen, and my mom is a Business and Product Manager at TMEIC India, located in Bengaluru which is one of the finest companies in India. My grandfather is V. Rama Roa, who was also a Head Chef in ITC Canteen. I do not have any siblings. My family lives in 6th Block, Rajajinagar, Bengaluru. Early in my life, I observed that my parents wanted me to become an Engineer.
@@ -326,8 +604,7 @@
         
         </p>
         <br>
-        <hr class="ruler">
-        <h2>Current Life</h2>
+        <h2><b>Current Life</b></h2>
 
         <img src="Img/uofR.jpg" class="image" alt="Pineapple" style="width:300px;height:200px;margin-left:15px;">
         <p align = "justify">
@@ -353,37 +630,77 @@
     </div>
     -->
         <br>
-        <hr class="ruler">
         
-        <h2>Personal Life</h2>
+        <h2><b>Personal Life</b></h2>
+                <img src="Img/tanuWriting.jpg" class="image" alt="Pineapple" style="width:300px;height:200px;margin-left:15px;">
+
         <p align = "justify">
-            I am a very humble person, I love to help others. I am not married, I'm too young to do that. I feel that I have lots of stuff to do and define my purpose in life. I have no girlfriend and I have no interest in having one. Because it's just a waste of my time, I'd rather sit down and write something stupid, which I'm currently doing. So all the time I just do my assignments and spend most of my time writing articles, tutorials. My goal is to become a Data Scientist at Google. And currently, I'm working towards it. I have no friends, and I believe that friends are life, and books are to me. I don't have any siblings and I love pets. Currently, back home I have 3 aquariums and all of them are pretty awesome. Especially the bigger tank which is close to 500 Gallons has a Giant Gourami in it. It of 4 years old now and it's my all-time favorite. I love to play pool. Currently I live in Luther Residece single dorm room.
+            I am a very humble person, I love to help others. I am not married, I'm too young to do that. I feel that I have lots of stuff to do and define my purpose in life. I have no girlfriend and I have no interest in having one. Because it's just a waste of my time, I'd rather sit down and write something stupid, which I'm currently doing. So all the time I just do my assignments and spend most of my time writing articles, tutorials. My goal is to become a Data Scientist at Google. And currently, I'm working towards it. I have no friends, and I believe that friends are life, and books are to me. I don't have any siblings and I love pets. Currently, back home I have 3 aquariums and all of them are pretty awesome. Especially the bigger tank which is close to 500 Gallons has a Giant Gourami in it. It of 4 years old now and it's my all-time favorite. I love to play pool. Currently I live in Luther Residence single dorm room. My best friends in the dorm are Teagen, Leam, Ben, Avery, Brooke, Ellie, Nadine, Allicia, Mathew, Zaima, Derek, Qusai, Gordon, Ty, and 200 more. I have done various projects in different courses of computer science just to name a few courses are Interactive Hardware, Mobile Computing, Software Engineering, Data Science, Human Computer Interaction, etc.
             
         
         </p>
-                <hr class="ruler">
 
         <h2>Author</h2>
-        <h4>Publications</h4>
+         <p align = "justify">
+            So I spend majority of my time in writing tutorials about python programming. Basically I read a lot and then write based on the earned knowledge. I am author for 6 publications shown below
+        
+        </p>
+        
+        <h3>Publications</h3>
         <ul class="a">
-          <li><a href = "https://medium.com/@tanunprabhu95">Towards Data Science</a></li>
-          <li><a href = "https://medium.com/@tanunprabhu95"> Analytics-Vidhya</a></li>
-          <li><a href = "https://medium.com/@tanunprabhu95">Kotlin Academy</a></li>
-            <li><a href = "https://medium.com/@tanunprabhu95"> The Start Up</a></li>
+            <li><a href = "https://medium.com/@tanunprabhu95"><b>Towards Data Science</b></a></li>
+            <a  data-toggle="collapse" data-target="#demo" > <p>+ Read more</p></a>
+              <div id="demo" class="collapse" align = "justify">
+                I started writing for Towards data science publincation from June 17th 2019 to till date. I have written a total of 28 articles in their publication which include about python programming, machine learning and data science.
+              </div>
+
+            <li><a href = "https://medium.com/@tanunprabhu95"><b>Analytics-Vidhya</b></a></li>
+            <a  data-toggle="collapse" data-target="#demo1" > <p>+ Read more</p></a>
+              <div id="demo1" class="collapse" align = "justify">
+                I started writing for Analytics Vidhya publincation from September 4th 2019 to till date. I have written a total of 2 articles in their publication which include about python programming, machine learning and data science.
+              </div>
+            
+            <li><a href = "https://medium.com/@tanunprabhu95"><b>Kotlin Academy</b></a></li>
+                <a  data-toggle="collapse" data-target="#demo2" > <p>+ Read more</p></a>
+              <div id="demo2" class="collapse" align = "justify">
+                I started writing for kotlin Academy publincation from September 13th 2019 to till date. I have written a total of 3 articles in their publication which include about kotlin and android programming.
+              </div>
+            
+            <li><a href = "https://medium.com/@tanunprabhu95"><b>The Start Up</b></a></li>
+               <a  data-toggle="collapse" data-target="#demo3" > <p>+ Read more</p></a>
+              <div id="demo3" class="collapse" align = "justify">
+                I started writing for start up publincation from January 14th 2020 to till date. I have written a total of 1 article in their publication which include about python programming.
+              </div>
+            
+            <li><a href = "https://medium.com/@tanunprabhu95"><b>UX planet</b></a></li>
+            
+              <a  data-toggle="collapse" data-target="#demo4" > <p>+ Read more</p></a>
+              <div id="demo4" class="collapse" align = "justify">
+                I started writing for UX planet publincation from January 20th 2020 to till date. I have written a total of 2 articles in their publication which include about user experience and design.
+              </div>
+            
+            
+            <li><a href = "https://medium.com/@tanunprabhu95"><b>Level Up Coding</b></a></li>
+            
+              <a  data-toggle="collapse" data-target="#demo5" > <p>+ Read more</p></a>
+              <div id="demo5" class="collapse" align = "justify">
+                I started writing for UX planet publincation from November 11th 2019 to till date. I have written a total of 4 articles in their publication which include about kotlin and python programming.
+              </div>
 
         </ul>
-    <p>For more details about Tanu's publications visit <a href = "publications.html"> Publications</a></p>
+    <p>For more details about my publications visit <a href = "publications.html"> Publications</a></p>
                 <hr class="ruler">
 
 
         <h2>Recognition</h2>
         <ul class="a">
-            <li>In 2014, Tanu was awarded a medal for securing First Class With Distinction</li>
-            <li>In 2015, Tanu was awarded a medal for securing First Class With Distinction</li>
-            <li>In 2016, Tanu was awarded a medal for securing First Class With Distinction</li>
-            <li>In 2017, Tanu was awarded a medal for securing First Class With Distinction</li>
-            <li>In 2018, Tanu was made as brand ambassador of the Global Academy of Technology</li>
-            <li>In 2018, Tanu was awarded a momento for being a 4th topper in his entire department</li>
+            <li>In 2014, I was awarded a medal for securing First Class With Distinction</li>
+            <li>In 2015, I was awarded a medal for securing First Class With Distinction</li>
+            <li>In 2016, I was awarded a medal for securing First Class With Distinction</li>
+            <li>In 2017, I was awarded a medal for securing First Class With Distinction</li>
+            <li>In 2018, I was made as brand ambassador of the Global Academy of Technology</li>
+            <li>In 2018, I was awarded a momento for being a 4th topper in his entire department</li>
+            <li>In 2020, I was awarded 4th prize for delevering excellent presentation about my Data Science Project.</li>
         </ul>
                         <hr class="ruler">
 
@@ -442,7 +759,13 @@
     
 </div>
 
-    
+    <!-- This is the javascript code for the slider of dark mode -->    
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>   
     
     
 </body>

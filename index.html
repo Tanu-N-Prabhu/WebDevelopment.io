@@ -9,15 +9,492 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="CSS/index.css">
-    
+
 </head>
 <body>
+
+<style>
+
+
+
+header, footer
+{
+    padding: 10px;
+}
+    
+
+
+
+
+div.container a
+{
+    text-decoration: none;
+    font: 15px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+
+
+/* Top and Bottom borders go out */
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+    
+    
+    
+    /* index.css */
+    
+
+    a{
+        color: red
+    }
+
+    .navbar-inverse .navbar-brand {
+color: snow;
+        font-size: 20px;
+        font-weight: bolder;
+    
+    
+    
+}
+
+    
+    
+    
+    body {
+font-family: Arial, Helvetica, sans-serif;
+        
+}
+
+
+
+.navbar .nav {
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.navbar-inverse {
+background-color: black
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+background-color: black
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+background-color: black
+}
+
+
+.navbar-inverse {
+background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+background-image: none;
+}
+
+.navbar-inverse {
+border-color: black
+}
+
+.navbar-inverse .navbar-brand {
+color: #FFFFFF
+}
+
+.navbar-inverse .navbar-brand:hover {
+color: #FFCC00;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+color: #FFCC00;
+    
+
+ 
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+color: #FFCC00
+}
+
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+border-bottom-color: #FFFFFF
+} 
+
+
+body {
+background-color: black;
+}
+
+
+
+
+.tooltip {
+position: relative;
+display: inline-block;
+border-bottom: 1px dotted black;
+}
+
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
    
-    <!-- Navigation bar code -->
+    
+/* This is for the paragraph Why, How and When of my website */    
+p{
+font-size: 17px;
+    color: white;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+
+/* For the programmer title in the home page */
+h2.title{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+    
+    h1.title{
+    color: white;
+    padding: 10px;
+}
+
+
+    
+    h1{
+        color: white;
+    }
+.ruler{
+border: 3px solid white ; 
+}
+
+
+
+.footer-bs {
+background-color: black;
+padding: 60px 40px;
+color: rgba(255,255,255,1.00);
+margin-bottom: 20px;
+border-bottom-right-radius: 6px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+  --bg-filter-opacity: 0.5;
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  height: 20em;
+  width: 15em;
+  font-size: 20px;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  /*margin: 2em;*/
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #ccc;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 15px;
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+
+.card .tags {
+  display: flex;
+}
+
+.card .tags .tag {
+  font-size: 0.75em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+}
+
+.card:hover .tags .tag {
+  background: var(--color);
+  color: white;
+}
+a.card:hover{
+  background: var(--color);
+  color: black;
+}
+
+.card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: .8;
+}
+
+.card:before, .card:after {
+  content: '';
+  transform: scale(0);
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+  transition: all, var(--transition-time);
+  transition-timing-function: ease-in-out;
+}
+
+.card:before {
+  background: #ddd;
+  width: 250%;
+  height: 250%;
+}
+
+.card:after {
+  background: white;
+  width: 200%;
+  height: 200%;
+}
+
+
+.card:hover {
+  color: var(--color);
+}
+
+.card:hover:before, .card:hover:after {
+  transform: scale(1);
+}
+
+.card-grid-space .num {
+  font-size: 3em;
+  margin-bottom: 1.2rem;
+  margin-left: 1rem;
+}
+
+.info {
+  font-size: 1.2em;
+  display: flex;
+  padding: 1em 3em;
+  height: 3em;
+}
+
+.info img {
+  height: 3em;
+  margin-right: 0.5em;
+}
+
+.info h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .info {
+    justify-content: center;
+  }
+  .card-grid-space .num {
+    /margin-left: 0;
+    /text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .card {
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info h1 {
+    margin: 0;
+  }
+}
+
+
+
+</style>
+
+<div class="container red topBotomBordersOut">
+ <!-- Navigation bar code -->
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
     <div class="container">
         
-      <!-- This is for the 3 horizontal lines for responsive -->   
+       <!-- This is for the 3 horizontal lines for responsive -->   
       <div class="navbar-header">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -46,26 +523,19 @@
             <a href = "academics.html">Academics</a>
             </li>
             
-            <!--This is for the slider for dark mode -->
-            <li><label class="switch">
-            <input type="checkbox" unchecked   onclick="myFunction()" >
-            <span class="slider round"></span>
-            </label></li>
-            
+    
         </ul>
       </nav>
     </div>
   </header>
     
+     <div class="container">
+     <h2 class = "title">Programmer, Freelance Writer, Author, Good Listener</h2>
+     <img class="center-block img-responsive" src="myWebsite.io-master/logo.png" alt="Chania"> 
+    </div>
     
     
-    
-    <div class="container">
-     <h1 class = "title">Programmer, Freelance Writer, Author, Good Listener</h1>
-     <img class="center-block img-responsive" src="logo.png" alt="Chania" width="2000" height="1000"> 
-        
-        
-     <hr class="ruler">    
+    <hr class="ruler">    
     
         <h1><b>Why</b></h1>
         <p align = "justify">This website is more likely my resume. Here I have spoken about all my life experiences, achievements, projects, research, publications and many more. Since I love web designing. I wanted to build a website from scratch and decided not to use any frameworks (website generator). Instead, I started coding this using HTML5, Bootstrap4, CSS4 and Javascript. By doing this, it will also increase my programming skills. Therefore, I built this website from scratch.</p>
@@ -82,8 +552,9 @@
         
         
     <hr class="ruler">    
-        
-             <h1 class = "title">Building Blocks of the Website</h1>
+    
+    
+    <h1 class = "title"><b>Building Blocks of the Website</b></h1>
 
         
         
@@ -137,15 +608,18 @@
 
     </div>
     
-    <!----------- Footer ------------>
+ <!----------- Footer ------------>
     <div class="container">
     <section style="height:80px;"></section>
 	<div class="row" style="text-align:center;">
-	
+	    <hr class="ruler">    
+
 	</div>
     <footer class="footer-bs">
+
         <div class="row">
         	<div class="col-md-4 footer-brand animated fadeInLeft">
+
             	<h2>About this website</h2>
                 <p align = "justify">This website is more like my resume, this is a portfolio. Here in this website you can find all the achievements, awards, publications and many more. Take a deep breadth and surf the website.</p>
                 <p><b>© 2020 Canada, All rights reserved</b></p>
@@ -192,3 +666,6 @@ function myFunction() {
     
 </body>
 </html>
+
+
+    

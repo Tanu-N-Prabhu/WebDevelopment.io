@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body >
 
 <style>
 
@@ -228,11 +228,12 @@ visibility: visible;
 }
 
 /* For the programmer title in the home page */
-h2.title{
+h1.title{
     margin-top: 100px;
     text-align: center;
     color: white;
     padding: 10px;
+
 }
     
     h1.title{
@@ -249,6 +250,9 @@ h2.title{
 border: 3px solid white ; 
 }
 
+    a.footer{
+        color: #FFCC00;
+    }
 
 
 .footer-bs {
@@ -289,7 +293,7 @@ letter-spacing: 3px;
 }
 .footer-bs .footer-social li { padding:5px 4px;}
 .footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
-.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-social a:hover { color:#FFCC00; text-decoration:none; }
 
 .footer-bs .footer-ns h4 {
 font-size: 11px;
@@ -485,7 +489,58 @@ a.card:hover{
 }
 
 
+    
+    
+    #loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
 
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
 </style>
 
 <div class="container red topBotomBordersOut">
@@ -501,7 +556,7 @@ a.card:hover{
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="TNP.html" class="navbar-brand" >TNP's HUB</a>
+        <a href="TNP.html" class="navbar-brand" >Tanu Nanda Prabhu</a>
       </div>
         
         
@@ -529,15 +584,15 @@ a.card:hover{
   </header>
     
      <div class="container">
-     <h2 class = "title">Programmer, Freelance Writer, Author, Good Listener</h2>
-     <img class="center-block img-responsive" src="logo.png" alt="Chania"> 
+     <h1 class = "title">Programmer, Freelance Writer, Author, Good Listener</h1>
+     <img class="center-block img-responsive" src="myWebsite.io-master/logo.png" alt="Chania"> 
     </div>
     
     
     <hr class="ruler">    
     
         <h1><b>Why</b></h1>
-        <p align = "justify">This website is more likely my resume. Here I have spoken about all my life experiences, achievements, projects, research, publications and many more. Since I love web designing. I wanted to build a website from scratch and decided not to use any frameworks (website generator). Instead, I started coding this using HTML5, Bootstrap4, CSS4 and Javascript. By doing this, it will also increase my programming skills. Therefore, I built this website from scratch.</p>
+        <p align = "justify">This website is more likely my resume. Here I have spoken about all my life experiences, achievements, projects, research, publications and many more. Since I love web designing. I wanted to build a website from scratch and decided not to use any frameworks (website generator). Instead, I started coding this using HTML 5, Bootstrap 4, CSS 4 and Javascript. By doing this, helps me increase my programming skills and think out of the box. Because designing ain't easy. Therefore, I built this website from scratch.</p>
         
         
         <h1><b>When</b></h1>
@@ -553,7 +608,7 @@ a.card:hover{
     <hr class="ruler">    
     
     
-    <h1 class = "title"><b>Building Blocks of the Website</b></h1>
+    <h1 class = "title"><b>Building blocks of my website</b></h1>
 
         
         
@@ -581,7 +636,7 @@ a.card:hover{
     </a>
   </div>
   <div class="card-grid-space">
-    <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA5xjMTa7iOt-LIobC1mwrO6S47_Ya4yRV8CrfpA9mptAa81WW&usqp=CAU')">
+    <a class="card" href="#" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA5xjMTa7iOt-LIobC1mwrO6S47_Ya4yRV8CrfpA9mptAa81WW&usqp=CAU')">
       <div>
         <h1>Bootstrap</h1>
         <p>The whole website is made responsive using bootstrap</p>
@@ -593,7 +648,7 @@ a.card:hover{
   </div>
     
       <div class="card-grid-space">
-    <a class="card" href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_A6lEvZkXaMwjMvQ_WtJf-x-A9_IdMEthL2Ie4laXWsIa4He7&usqp=CAU')">
+    <a class="card" href="#" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_A6lEvZkXaMwjMvQ_WtJf-x-A9_IdMEthL2Ie4laXWsIa4He7&usqp=CAU')">
       <div>
         <h1>JavaScript</h1>
         <p>The code for the animations were written in JavaScript</p>
@@ -631,8 +686,7 @@ a.card:hover{
                         <li><a href="TNP.html">TNP's HUB</a></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#">Publications</a></li>
-                        <li><a href="#">Profile Card</a></li>
-                        <li><a href "#">Photo Gallery</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
                     </ul>
                 </div>
             </div>
@@ -650,7 +704,7 @@ a.card:hover{
         </div>
    
     </footer>
-    <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="https://github.com/Tanu-N-Prabhu/myWebsite.io">Tanu Nanda Prabhu</a></p></section>
+    <section style="text-align:center; margin:10px auto;"><p>Designed by <a class = "footer" href="https://github.com/Tanu-N-Prabhu/myWebsite.io">Tanu Nanda Prabhu</a></p></section>
 
 </div> 
     

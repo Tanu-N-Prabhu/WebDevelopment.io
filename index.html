@@ -9,7 +9,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
-
+<script
+      src="https://kit.fontawesome.com/91e547386c.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body >
 
@@ -462,10 +465,7 @@ a.card:hover{
 
 
     
-    h1.title{
-        
-    }
-    
+  
   .center {
   display: block;
   margin-left: auto;
@@ -473,6 +473,83 @@ a.card:hover{
   width: 50%;
 border-radius: 25px;
 }
+    
+    
+    
+
+
+
+    .dark-mode{
+        background-color: black;
+    }
+
+    
+    
+
+    .dark-mode .navbar-inverse{
+border-color: black;
+
+
+        background-color: black;
+        color: black;
+        
+      }
+    
+    .dark-mode .navbar-inverse .navbar-brand {
+color: white;
+}
+      
+    .dark-mode .center{
+        background-color: white;
+    }
+    
+    
+    .dark-mode .navbar-inverse .navbar-nav>li>a {
+color: white;
+        background-color: black;
+}
+
+    .dark-mode i.toggler {
+        color: orange;
+    }
+    
+    .dark-mode .why{
+        background-color: white;
+
+    }
+    
+    .dark-mode .title{
+        color: white;
+    }
+    
+    .dark-mode .cards-wrapper{
+        background-color: white;
+    }
+  
+    .dark-mode a.card:hover{
+  background: white;
+  color: black;
+}
+    
+    .dark-mode .navbar-inverse .navbar-brand:hover {
+color: #FFAA80;
+
+}
+    
+    .dark-mode .navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+color: #FFAA80;
+    
+
+ 
+}
+    
+.dark-mode .card:hover .tags .tag {
+  background: bla;
+  color: black;
+}
+
+   
 </style>
 
 <div class="container red topBotomBordersOut">
@@ -506,6 +583,15 @@ border-radius: 25px;
             
             <li>
             <a href="photo_gallery.html">Photo Gallery</a>
+            </li>
+            
+ 
+            
+            <li>
+            
+                <a> <i id="dark-mode-btn" class="toggler far fa-moon"></i></a>
+    
+
             </li>
          
     
@@ -647,7 +733,40 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
-</script>    
+    
+    
+    
+    // Include this script near the top of your html
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") {
+        app.setAttribute("data-light-mode", "dark");
+    }
+    
+    
+    
+	function toggle_light_mode() {
+
+		var app = document.getElementsByTagName("BODY")[0];
+
+		if (localStorage.lightMode == "dark") {
+			localStorage.lightMode = "light";
+			app.setAttribute("data-light-mode", "light");
+		} else {
+			localStorage.lightMode = "dark";
+			app.setAttribute("data-light-mode", "dark");
+		}
+		console.log("lightMode = " + localStorage.lightMode);
+	}
+    
+    
+    document.getElementById('dark-mode-btn').addEventListener('click', function (e) {
+        const toggler = document.body;
+        toggler.classList.toggle('dark-mode');
+        const target = e.target;
+        target.classList.toggle('fa-moon');
+        target.classList.toggle('fa-sun');
+      });
+</script>
     
 </body>
 </html>

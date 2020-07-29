@@ -1,562 +1,33 @@
+<!--
+This is the main page. Also known as "Home" page, the CSS style sheet is referenced as "index.css".
+I have used many libreries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
+
 <html lang="en">
+    
 <head>
   <title>Home Page</title>
-    
   <!-- Necessary libraries and hyper-links for the website -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
-<script
-      src="https://kit.fontawesome.com/91e547386c.js"
-      crossorigin="anonymous"
-    ></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin= "anonymous"></script>
+    <link rel="stylesheet" href="myWebsite.io-master/CSS/index.css">
 </head>
-<body >
-
-<style>
-
-
-
-header, footer
-{
-    padding: 10px;
-}
-    
-
-
-
-
-div.container a
-{
-    text-decoration: none;
-    font: 15px;
-    position: relative;
-    cursor: pointer;
-}
-
-    div.why{
-        padding: 50px;
-        background-color: #FFAA80;
-        width: 100%;
-        justify-content: center;
-  align-items: center;
-        border-radius: 25px;
-    }
-
-
-/* Top and Bottom borders go out */
-div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: black;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-}
-
-div.topBotomBordersOut a:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
-
-div.topBotomBordersOut a:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
-}
-
     
     
+<body>
     
-    /* index.css */
-    
-
-    a{
-        color: red
-    }
-
-    .navbar-inverse .navbar-brand {
-color: snow;
-        font-size: 20px;
-        font-weight: bolder;
-    
-    
-    
-}
-
-    
-    
-    
-    body {
-font-family: Arial, Helvetica, sans-serif;
-        
-}
-
-
-
-.navbar .nav {
-font-family: 'Open Sans', sans-serif;
-text-transform: uppercase;
-letter-spacing: 3px;
-}
-
-.navbar-inverse {
-background-color: #87CEFA
-}
-
-.navbar-inverse .navbar-nav>.active>a:hover,
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
-background-color: #87CEFA
-}
-
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.open>a,
-.navbar-inverse .navbar-nav>.open>a,
-.navbar-inverse .navbar-nav>.open>a:hover,
-.navbar-inverse .navbar-nav>.open>a,
-.navbar-inverse .navbar-nav>.open>a:hover,
-.navbar-inverse .navbar-nav>.open>a:focus {
-background-color: #87CEFA
-}
-
-
-.navbar-inverse {
-background-image: none;
-}
-
-.dropdown-menu>li>a:hover,
-.dropdown-menu>li>a:focus {
-background-image: none;
-}
-
-.navbar-inverse {
-border-color: #87CEFA
-}
-
-.navbar-inverse .navbar-brand {
-color: black
-}
-
-.navbar-inverse .navbar-brand:hover {
-color: #FFAA80;
-
-}
-
-.navbar-inverse .navbar-nav>li>a {
-color: black;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
-color: #FFAA80;
-    
-
- 
-}
-
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.open>a,
-.navbar-inverse .navbar-nav>.open>a:hover,
-.navbar-inverse .navbar-nav>.open>a:focus {
-color: #FFCC00
-}
-
-.navbar-inverse .navbar-nav>.active>a:hover,
-.navbar-inverse .navbar-nav>.active>a:focus {
-color: #FFCC00
-}
-
-
-.navbar-inverse .navbar-nav>.dropdown>a .caret {
-border-top-color: #FFFFFF
-}
-
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
-border-top-color: #FFFFFF
-}
-
-.navbar-inverse .navbar-nav>.dropdown>a .caret {
-border-bottom-color: #FFFFFF
-}
-
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
-border-bottom-color: #FFFFFF
-} 
-
-body {
-background-color: #87CEFA;
-}
-
-
-
-
-
-   
-    
-/* This is for the paragraph Why, How and When of my website */    
-p{
-font-size: 17px;
-    color: black;
-}
-
-
-
-/* For the programmer title in the home page */
-p.title{
-    margin-top: 100px;
-    text-align: center;
-    color: black;
- font-family: 'Allan';font-size: 50px;
-
-}
-    
-    h1.why{
-        font-family: cursive;
-    }
-    
-
-    
-    
-
-    a.footer{
-        color: red;
-    }
-
-
-.footer-bs {
-background-color: black;
-padding: 60px 40px;
-color: rgba(255,255,255,1.00);
-margin-bottom: 20px;
-border-bottom-right-radius: 6px;
-border-top-left-radius: 0px;
-border-bottom-left-radius: 6px;
-    border-radius: 25px;
-}
-.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
-.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
-.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
-.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
-
-.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
-.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
-.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
-.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
-.footer-bs .footer-nav h4 {
-font-size: 11px;
-text-transform: uppercase;
-letter-spacing: 3px;
-margin-bottom:10px;
-}
-
-.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
-.footer-bs .footer-nav ul.list li { padding:5px 0px;}
-.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
-.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
-
-.footer-bs .footer-social ul { list-style:none; padding:0px; }
-.footer-bs .footer-social h4 {
-font-size: 11px;
-text-transform: uppercase;
-letter-spacing: 3px;
-}
-.footer-bs .footer-social li { padding:5px 4px;}
-.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
-.footer-bs .footer-social a:hover { color:#FFAA80; text-decoration:none; }
-
-.footer-bs .footer-ns h4 {
-font-size: 11px;
-text-transform: uppercase;
-letter-spacing: 3px;
-margin-bottom:10px;
-}
-.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
-
-@media (min-width: 768px) {
-.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
-    
- 
-}
-
-
-.cards-wrapper {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-column-gap: 35%;
-  grid-row-gap: 50px;
-  padding: 100px;
-background-color: #FFFF99;    
-    border-radius: 25px;
-   
-  margin: 0 auto;
-      width: 100%;
-
-
-}
-    
-
-.card {
-    font-family: Arial, Helvetica, sans-serif;
-  --bg-filter-opacity: 0.5;
-  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 20em;
-  width: 15em;
-  font-size: 20px;
-  color: white;
-  border-radius: 1em;
-  padding: 1em;
-  /*margin: 2em;*/
-  display: flex;
-  align-items: flex-end;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 0 5em -1em black;
-  transition: all, var(--transition-time);
-  position: relative;
-  overflow: hidden;
-  border: 10px solid #ccc;
-  text-decoration: none;
-}
-
-.card:hover {
-  transform: rotate(0);
-}
-
-.card h1 {
-  margin: 0;
-  font-size: 30px;
-  line-height: 1.2em;
-  font-weight: bold;
-}
-
-.card p {
-  font-size: 15px;
-  margin-top: 0.5em;
-  line-height: 2em;
-}
-
-.card .tags {
-  display: flex;
-}
-
-.card .tags .tag {
-  font-size: 0.75em;
-  background: rgba(255,255,255,0.5);
-  border-radius: 0.3rem;
-  padding: 0 0.5em;
-  margin-right: 0.5em;
-  line-height: 1.5em;
-  transition: all, var(--transition-time);
-}
-
-.card:hover .tags .tag {
-  background: bla;
-  color: white;
-}
-a.card:hover{
-  background: #FFAA80;
-  color: black;
-}
-
-.card .date {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 0.75em;
-  padding: 1em;
-  line-height: 1em;
-  opacity: .8;
-}
-
-.card:before, .card:after {
-  content: '';
-  transform: scale(0);
-  transform-origin: top left;
-  border-radius: 50%;
-  position: absolute;
-  left: -50%;
-  top: -50%;
-  z-index: -5;
-  transition: all, var(--transition-time);
-  transition-timing-function: ease-in-out;
-}
-
-.card:before {
-  background: #ddd;
-  width: 250%;
-  height: 250%;
-}
-
-.card:after {
-  background: white;
-  width: 200%;
-  height: 200%;
-}
-
-
-.card:hover {
-  color: var(--color);
-}
-
-.card:hover:before, .card:hover:after {
-  transform: scale(1);
-}
-
-.card-grid-space .num {
-  font-size: 3em;
-  margin-bottom: 1.2rem;
-  margin-left: 1rem;
-
-    
-}
-
-.info {
-  font-size: 1.2em;
-  display: flex;
-  padding: 1em 3em;
-  height: 3em;
-}
-
-.info img {
-  height: 3em;
-  margin-right: 0.5em;
-}
-
-.info h1 {
-  font-size: 1em;
-  font-weight: normal;
-}
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 1285px) {
-  .cards-wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .cards-wrapper {
-    grid-template-columns: 1fr;
-  }
-  .info {
-    justify-content: center;
-  }
-  .card-grid-space .num {
-    /margin-left: 0;
-    /text-align: center;
-  }
-}
-
-
-
-    
-  
-  .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-border-radius: 25px;
-}
-    
-    
-    
-
-
-
-    .dark-mode{
-        background-color: black;
-    }
-
-    
-    
-
-    .dark-mode .navbar-inverse{
-border-color: black;
-
-
-        background-color: black;
-        color: black;
-        
-      }
-    
-    .dark-mode .navbar-inverse .navbar-brand {
-color: white;
-}
-      
-    .dark-mode .center{
-        background-color: white;
-    }
-    
-    
-    .dark-mode .navbar-inverse .navbar-nav>li>a {
-color: white;
-        background-color: black;
-}
-
-    .dark-mode i.toggler {
-        color: orange;
-    }
-    
-    .dark-mode .why{
-        background-color: white;
-
-    }
-    
-    .dark-mode .title{
-        color: white;
-    }
-    
-    .dark-mode .cards-wrapper{
-        background-color: white;
-    }
-  
-    .dark-mode a.card:hover{
-  background: white;
-  color: black;
-}
-    
-    .dark-mode .navbar-inverse .navbar-brand:hover {
-color: #FFAA80;
-
-}
-    
-    .dark-mode .navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
-color: #FFAA80;
-    
-
- 
-}
-    
-.dark-mode .card:hover .tags .tag {
-  background: bla;
-  color: black;
-}
-
-   
-</style>
-
 <div class="container red topBotomBordersOut">
  <!-- Navigation bar code -->
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
     <div class="container">
-        
+
        <!-- This is for the 3 horizontal lines for responsive -->   
       <div class="navbar-header">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -565,153 +36,135 @@ color: #FFAA80;
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="TNP.html" class="navbar-brand" >Tanu Nanda Prabhu</a>
+          
+        <a href="myWebsite.io-master/TNP.html" class="navbar-brand" >Tanu Nanda Prabhu</a>
       </div>
         
         
       <!-- Navigation bar options code -->
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right">
-            
-          
             <li>
             <a href="publications.html">Publications</a>
             </li>
-               <li>
+            <li>
             <a href = "academics.html">Academics</a>
             </li>
-            
             <li>
             <a href="photo_gallery.html">Photo Gallery</a>
             </li>
-            
- 
-            
             <li>
-            
-                <a> <i id="dark-mode-btn" class="toggler far fa-moon"></i></a>
-    
-
+            <!-- Dark Mode Icon -->
+            <a><i id="dark-mode-btn" class="toggler far fa-moon"></i></a>
             </li>
-         
-    
         </ul>
       </nav>
     </div>
   </header>
     
-     <p class = "title">This is the online version of me!</p>
-     <img class="center" src="logo_transparent.png" alt="Chania" > 
+    <p class = "title">This is the online version of me!</p>
+    <img class="center" src="myWebsite.io-master/logo_transparent.png" alt="Chania" > 
     <br>
     <br>
     
-    
-         <div class="why">
+    <div class="why">
 
         <h1><b>Why</b></h1>
-        <p align = "justify">This website is more likely my resume. Here I have spoken about all my life experiences, achievements, projects, research, publications and many more. Since I love web designing. I wanted to build a website from scratch and decided not to use any frameworks (website generator). Instead, I started coding this using HTML 5, Bootstrap 4, CSS 4 and Javascript. By doing this, helps me increase my programming skills and think out of the box. Because designing ain't easy. Therefore, I built this website from scratch.</p>
-        
-        
+        <p align = "justify">This is my portfolio. Here I have spoken about all my life experiences, achievements, projects, research, publications, and many more. I love web designing. I wanted to build a website from scratch and decided not to use any frameworks (website generator). Instead, I started coding this using HTML 5, Bootstrap 4, CSS 4, and Javascript. By doing this, helps me increase my programming skills and think out of the box. Because designing ain’t easy. Therefore, I built this website from scratch.</p>
+
         <h1><b>When</b></h1>
-        <p align = "justify">I started building this website on April 13, 2019. Since its web design new designs, new design layouts icons keep updating. So this is an ongoing project. I am the only one building this project. It involves no team mates in building this website. So eventually it takes time to build such websites because all the documenting, research and learning will be done by me. So I will be regularly updating the website with extended features.</p>
-        
-        
-        
+        <p align = "justify">I started building this website on April 13, 2019. Since its web design new designs, layouts and icons keep updating. So this is an ongoing project. I am the only one building this project. It involves no teammates in building this website. So eventually it takes time to build such websites because all the documenting, research, and learning will be done by me. So I will be regularly updating the website with extended features.</p>
+
         <h1><b>How</b></h1>
-        <p align = "justify">As said earlier I am building this website everything from scratch. I am using HTML5 to build the front-end, CSS4 for the styling, Bootstrap4 for the responsiveness of the website and Javascript for the animations. I am using Brackets IDE to type my code. This is an amazing IDE with extended features like “live preview” on a browser, auto code completion, syntax highlighting and many more. </p>
-        
-        
+        <p align = "justify">As said earlier I am building this website everything from scratch. I am using HTML5 to build the front-end, CSS4 for the styling, Bootstrap4 for the responsiveness of the website and Javascript for the animations. I am using Brackets IDE to type my code. This is an amazing IDE with extended features like “live preview” on a browser, auto code completion, syntax highlighting, and many more.</p>
+
     </div>
     
     <br>
     <br>
     
     <h1 class = "title" align = center><b>Building blocks of my website</b></h1>
-<br>
+    <br>
     <br>
         
-        
-        <section class="cards-wrapper">
-  <div class="card-grid-space">
-    <a class="card" href="#" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg);">
-      <div>
-        <h1>HTML</h1>
-        <p>The entire front end of the website is written in HTML</p>
-        <div class="tags">
-          <div class="tag">HTML 5</div>
-        </div>
-      </div>
-    </a>
-  </div>
-  <div class="card-grid-space">
-    <a class="card" href=# style="--bg-img: url('https://i1.wp.com/blog.alexdevero.com/wp-content/uploads/2015/02/css-code-e1517469545230.jpeg?resize=768%2C474&ssl=1')">
-      <div>
-        <h1>CSS</h1>
-        <p>The styling for the website is written using CSS</p>
-        <div class="tags">
-          <div class="tag">CSS 4</div>
-        </div>
-      </div>
-    </a>
-  </div>
-  <div class="card-grid-space">
-    <a class="card" href="#" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA5xjMTa7iOt-LIobC1mwrO6S47_Ya4yRV8CrfpA9mptAa81WW&usqp=CAU')">
-      <div>
-        <h1>Bootstrap</h1>
-        <p>The whole website is made responsive using bootstrap</p>
-        <div class="tags">
-          <div class="tag">Bootstrap 4</div>
-        </div>
-      </div>
-    </a>
-  </div>
     
-      <div class="card-grid-space">
-    <a class="card" href="#" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_A6lEvZkXaMwjMvQ_WtJf-x-A9_IdMEthL2Ie4laXWsIa4He7&usqp=CAU')">
-      <div>
-        <h1>JavaScript</h1>
-        <p>The code for the animations were written in JavaScript</p>
-        <div class="tags">
-          <div class="tag">JavaScript</div>
+    <!--- Card hovering - responsive bootstrap -->
+    <section class="cards-wrapper">
+        <div class="card-grid-space">
+            <a class="card" href="#" style="--bg-img: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1500&url=https://codetheweb.blog/assets/img/posts/html-syntax/cover.jpg);">
+                <div>
+                    <h1>HTML</h1>
+                    <p>The entire front end of the website is written in HTML</p>
+                        <div class="tags">
+                        <div class="tag">HTML 5</div>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-          </a>
-    </div>
-</section>
-
-    </div>
+        <div class="card-grid-space">
+            <a class="card" href=# style="--bg-img: url('https://i1.wp.com/blog.alexdevero.com/wp-content/uploads/2015/02/css-code-e1517469545230.jpeg?resize=768%2C474&ssl=1')">
+                <div>
+                    <h1>CSS</h1>
+                    <p>The styling for the website is written using CSS</p>
+                        <div class="tags">
+                        <div class="tag">CSS 4</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="card-grid-space">
+            <a class="card" href="#" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA5xjMTa7iOt-LIobC1mwrO6S47_Ya4yRV8CrfpA9mptAa81WW&usqp=CAU')">
+                <div>
+                    <h1>Bootstrap</h1>
+                    <p>The whole website is made responsive using bootstrap</p>
+                        <div class="tags">
+                        <div class="tag">Bootstrap 4</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="card-grid-space">
+            <a class="card" href="#" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_A6lEvZkXaMwjMvQ_WtJf-x-A9_IdMEthL2Ie4laXWsIa4He7&usqp=CAU')">
+                <div>
+                    <h1>JavaScript</h1>
+                    <p>The code for the animations were written in JavaScript</p>
+                        <div class="tags">
+                        <div class="tag">JavaScript</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+</div>
     
- <!----------- Footer ------------>
+    
+    
+    
+    
+<!----------- Footer ------------>
     <div class="container">
     <section style="height:80px;"></section>
-	<div class="row" style="text-align:center;">
-
-	</div>
+	<div class="row" style="text-align:center;"></div>
     <footer class="footer-bs">
-
         <div class="row">
         	<div class="col-md-4 footer-brand animated fadeInLeft">
-
             	<h2>About this website</h2>
                 <p align = "justify">This website is more like my resume, this is a portfolio. Here in this website you can find all the achievements, awards, publications and many more. Take a deep breadth and surf the website.</p>
                 <p><b>© 2020 Canada, All rights reserved</b></p>
             </div>
         	<div class="col-md-4 footer-social animated fadeInDown">
-            	<h4>Menu -</h4>
-            	
+                <h4><b>Menu -</b></h4>
             	<div class="col-md-6">
                     <ul >
                         <li><a href="TNP.html">TNP's HUB</a></li>
-                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">Publications</a></li>
                         <li><a href="#">Photo Gallery</a></li>
                     </ul>
                 </div>
             </div>
-            
-            
         	<div class="col-md-2 footer-social animated fadeInDown">
-            	<h4>Follow Me -</h4>
+                <h4><b>Follow Me -</b></h4>
+                <div class="col-md-6">
             	<ul>
                 	<li><a href="#">Facebook</a></li>
                 	<li><a href="#">Twitter</a></li>
@@ -720,54 +173,59 @@ color: #FFAA80;
                 </ul>
             </div>
         </div>
-   
+        </div>
     </footer>
-    <section style="text-align:center; margin:10px auto;"><p>Designed by <a class = "footer" href="https://github.com/Tanu-N-Prabhu/myWebsite.io">Tanu Nanda Prabhu</a></p></section>
-
+    <section style="text-align:center; margin:10px auto;"><p class="designedBy">Designed by <a class = "footer" href="https://github.com/Tanu-N-Prabhu/myWebsite.io">Tanu Nanda Prabhu</a></p>
+        </section>
+        
+        
 </div> 
+
     
 
 <!-- This is the javascript code for the slider of dark mode -->    
 <script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
+function myFunction() 
+{
+    var element = document.body;
+    element.classList.toggle("dark-mode");
 }
-    
-    
-    
-    // Include this script near the top of your html
+
+
+var app = document.getElementsByTagName("BODY")[0];
+if (localStorage.lightMode == "dark") 
+{
+    app.setAttribute("data-light-mode", "dark");
+}
+
+
+function toggle_light_mode() 
+{
     var app = document.getElementsByTagName("BODY")[0];
-    if (localStorage.lightMode == "dark") {
+    if (localStorage.lightMode == "dark") 
+    {
+        localStorage.lightMode = "light";
+        app.setAttribute("data-light-mode", "light");
+    } 
+    else 
+    {
+        localStorage.lightMode = "dark";
         app.setAttribute("data-light-mode", "dark");
     }
-    
-    
-    
-	function toggle_light_mode() {
+    console.log("lightMode = " + localStorage.lightMode);
+}
 
-		var app = document.getElementsByTagName("BODY")[0];
 
-		if (localStorage.lightMode == "dark") {
-			localStorage.lightMode = "light";
-			app.setAttribute("data-light-mode", "light");
-		} else {
-			localStorage.lightMode = "dark";
-			app.setAttribute("data-light-mode", "dark");
-		}
-		console.log("lightMode = " + localStorage.lightMode);
-	}
+document.getElementById('dark-mode-btn').addEventListener('click', function (e) 
+{
+    const toggler = document.body;
+    toggler.classList.toggle('dark-mode');
+    const target = e.target;
+    target.classList.toggle('fa-moon');
+    target.classList.toggle('fa-sun');
+});
     
-    
-    document.getElementById('dark-mode-btn').addEventListener('click', function (e) {
-        const toggler = document.body;
-        toggler.classList.toggle('dark-mode');
-        const target = e.target;
-        target.classList.toggle('fa-moon');
-        target.classList.toggle('fa-sun');
-      });
 </script>
-    
 </body>
 </html>
 

@@ -560,7 +560,7 @@ a.footer{
   transition: 0.3s;
   width: 100%;
 padding: 50px;
-    background-color: #FFAA80;
+    background-color: #FFFF99;
     border-radius: 25px;
 
 }
@@ -746,4 +746,21 @@ padding: 50px;
         width: 100%;
         border-radius: 25px;
     }
+
+
+a>div { display: none; }
+a:hover>div { display: block; }
+
+
+
+
+
+
+
+
+
+
+
+
+
 

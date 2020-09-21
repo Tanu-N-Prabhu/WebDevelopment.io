@@ -5,8 +5,7 @@ Author: Tanu Nanda Prabhu
 -->
 
 
-<html lang="en">
-    
+<html lang="en">  
 <head>
   <title>Home Page</title>
   <!-- Necessary libraries and hyper-links for the website -->
@@ -17,7 +16,7 @@ Author: Tanu Nanda Prabhu
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin= "anonymous"></script>
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="myWebsite.io-master/CSS/index.css">
 </head>
     
     
@@ -37,7 +36,7 @@ Author: Tanu Nanda Prabhu
           <span class="icon-bar"></span>
         </button>
           
-        <a href="TNP.html" class="navbar-brand" >Tanu Nanda Prabhu</a>
+        <a href="myWebsite.io-master/TNP.html" class="navbar-brand" >Tanu Nanda Prabhu</a>
       </div>
         
         
@@ -45,25 +44,28 @@ Author: Tanu Nanda Prabhu
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right">
             <li>
-            <a href="publications.html">Publications</a>
+            
+            <a href="publications.html"><i class="fas">&#xf02d;</i> Publications</a>
+        
+            <li>
+            <a href = "myWebsite.io-master/academics.html"><i class="fas">&#xf19c;</i> Academics</a>
             </li>
             <li>
-            <a href = "academics.html">Academics</a>
-            </li>
-            <li>
-            <a href="photo_gallery.html">Photo Gallery</a>
+            <a href="photo_gallery.html"><i class="fas">&#xf302;</i> Photo Gallery</a>
             </li>
             <li>
             <!-- Dark Mode Icon -->
-            <a><i id="dark-mode-btn" class="toggler far fa-moon"></i></a>
+            <a><i id="dark-mode-btn" class="toggler far fa-moon"></i> Dark Mode</a>
             </li>
+            
+            
         </ul>
       </nav>
     </div>
   </header>
     
     <p class = "title">This is the online version of me!</p>
-    <img class="center" src="logo_transparent.png" alt="Chania" > 
+    <img class="center" src="myWebsite.io-master/logo_transparent.png" alt="Chania" > 
     <br>
     <br>
     
@@ -105,7 +107,7 @@ Author: Tanu Nanda Prabhu
             <a class="card" href=# style="--bg-img: url('https://i1.wp.com/blog.alexdevero.com/wp-content/uploads/2015/02/css-code-e1517469545230.jpeg?resize=768%2C474&ssl=1')">
                 <div>
                     <h1>CSS</h1>
-                    <p>The styling for the website is written using CSS</p>
+                    <p>The styling for the website is done using CSS</p>
                         <div class="tags">
                         <div class="tag">CSS 4</div>
                     </div>
@@ -116,7 +118,7 @@ Author: Tanu Nanda Prabhu
             <a class="card" href="#" style="--bg-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA5xjMTa7iOt-LIobC1mwrO6S47_Ya4yRV8CrfpA9mptAa81WW&usqp=CAU')">
                 <div>
                     <h1>Bootstrap</h1>
-                    <p>The whole website is made responsive using bootstrap</p>
+                    <p>The whole is responsive using bootstrap</p>
                         <div class="tags">
                         <div class="tag">Bootstrap 4</div>
                     </div>
@@ -197,7 +199,7 @@ if (localStorage.lightMode == "dark")
 {
     app.setAttribute("data-light-mode", "dark");
 }
-
+    
 
 function toggle_light_mode() 
 {

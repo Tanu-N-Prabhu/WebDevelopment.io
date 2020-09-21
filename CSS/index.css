@@ -330,7 +330,8 @@ background-color: #FFFF99;
 
 .card .tags .tag {
   font-size: 0.75em;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0);
+    color: black;
   border-radius: 0.3rem;
   padding: 0 0.5em;
   margin-right: 0.5em;
@@ -339,8 +340,8 @@ background-color: #FFFF99;
 }
 
 .card:hover .tags .tag {
-  background: bla;
-  color: white;
+  background: white;
+  color: black;
 }
 a.card:hover{
   background: #FFAA80;
@@ -491,6 +492,17 @@ color: white;
         background-color: white;
 
     }
+
+.dark-mode .footer-bs{
+    background-color: white;
+}
+
+
+.dark-mode .footer-bs .footer-social a:hover{color: #FFAA80;}
+
+.dark-mode a.footer:hover{color: #FFAA80;}
+.dark-mode a.footer{color: white;}
+
     
     .dark-mode .title{
         color: white;
@@ -514,13 +526,11 @@ color: #FFAA80;
 .navbar-inverse .navbar-nav>li>a:focus {
 color: #FFAA80;
     
-
- 
 }
     
 .dark-mode .card:hover .tags .tag {
-  background: bla;
-  color: black;
+  background-color: black;
+color: white;
 }
     
     .dark-mode .designedBy{

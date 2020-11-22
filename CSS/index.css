@@ -12,14 +12,18 @@ div.container a
     cursor: pointer;
 }
 
-    div.why{
-        padding: 50px;
-        background-color: #FFAA80;
-        width: 100%;
-        justify-content: center;
-  align-items: center;
-        border-radius: 25px;
-    }
+p.text{
+    font-size: 15px;
+}
+
+div.why{
+    padding: 50px;
+    background-color: #FFAA80;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
 
 
 /* Top and Bottom borders go out */
@@ -54,33 +58,16 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 }
 
     
-    
-    
-    /* index.css */
-    
 
-    a{
-        color: red
-    }
+a{
+    color: red
+}
 
-    .navbar-inverse .navbar-brand {
+.navbar-inverse .navbar-brand {
 color: snow;
-        font-size: 20px;
-        font-weight: bolder;
-    
-    
-    
+    font-size: 20px;
+    font-weight: bolder;
 }
-
-    
-    
-    
-    body {
-font-family: Arial, Helvetica, sans-serif;
-        
-}
-
-
 
 .navbar .nav {
 font-family: 'Open Sans', sans-serif;
@@ -183,10 +170,7 @@ background-color: #87CEFA;
    
     
 /* This is for the paragraph Why, How and When of my website */    
-p{
-font-size: 17px;
-    color: black;
-}
+
 
 
 
@@ -195,7 +179,13 @@ p.title{
     margin-top: 100px;
     text-align: center;
     color: black;
- font-family: 'Allan';font-size: 50px;
+      font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+
+ 
+  
 
 }
     
@@ -541,5 +531,35 @@ color: white;
 a.footer:hover { color:white; font-style: italic; }
 a.footer{
     color: black;
+}
+
+
+
+
+
+
+
+
+.typewriter {
+  font-family: sans-serif;
+  color: #fff;
+  display: block;
+}
+.typewriter-text {
+  padding-right: 10px;
+  color: white;
+  border-right: solid #ffe509 7px;
+  text-transform: uppercase;
+  animation: cursor 1s ease-in-out infinite;
+}
+@keyframes cursor {
+  from { border-color: #FFAA80; }
+  to { border-color: transparent; }
+}
+
+
+.containerab{
+    display: flex;
+    text-align: center
 }
    

@@ -172,6 +172,26 @@ Author: Tanu Nanda Prabhu
     <p align = "justify">There is no need to solder any wire or component. Motor-shield comprises screws which need to be tightened after connecting the wires. But we must be careful that all the pins of the motor-shield must coincide with that of the Arduino pins, else the motor-shield would be burnt or doesn’t function properly</p>
 
 
+<h3><b>Code Snippet</b></h3>
+        
+        <p align = "justify">The below code is activating the brake lights. It is really simple to understand. Let me help you LOW - means to turn OFF, and HIGH is opposite. Hope this simple logic makes sense to you.</p>     
+<pre>
+<code>
+void brakeLights()
+    {
+      digitalWrite(led1, HIGH);
+      digitalWrite(led2, HIGH);   
+      digitalWrite(led3, HIGH);  
+      delay(80); 
+
+      digitalWrite(led1, LOW);
+      digitalWrite(led2, LOW);
+      digitalWrite(led3, LOW);
+      delay(80);
+    }
+</code>
+</pre>	    
+	    
     <h3><b>Conclusion</b></h3>
     <p align = "justify">The main motivation for choosing this project was, the increase in autonomous self-driven cars today in the real world, and it was a relevant area of interest to work with radio-controlled cars. Everything today is on the verge of being automated, keeping this in mind along with the existing project helped in arriving at a conclusion of building an autonomous radio-controlled car. Also, this project would be interesting to see a radio-controlled car automatically runs with no one controlling it. The proposed project when completed turns out to be a more sophisticated and easier to operate with minimum requirements and making it an autonomous fully functioning car. Likewise, the goal of this project was to make the RC car fully autonomous such that making the car to run on its own and avoiding obstacles on its way, this concept can be further implemented in real time cars if enhanced</p>
 
@@ -295,23 +315,19 @@ Author: Tanu Nanda Prabhu
         
     <h3><b>Code Snippet of the model</b></h3> 
         
-    <code># Creating the Lasso Regression Model</code>
-    <br>
-    <code>reg = linear_model.Lasso(alpha=0.1)</code>
-    <br>
-    <code>X = df.drop('MSRP', axis=1)</code>
-    <br>
-    <code>y = df['MSRP']</code>
-    <br>
-    <code># Splitting the model into train and test data</code>
-    <br>
-    <code>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)</code>
-    <br>
-    <code># Fitting and predicting the trained values to the Lassor Regression Model</code>
-    <br>
-    <code>reg.fit(X_train, y_train)</code>
-    <br>
-    <code>pred = reg.predict(X_test)</code>
+    <pre>
+<code>
+# Creating the Lasso Regression Model
+reg = linear_model.Lasso(alpha=0.1)
+X = df.drop('MSRP', axis=1)
+y = df['MSRP']
+# Splitting the model into train and test data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+# Fitting and predicting the trained values to the Lassor Regression Model
+reg.fit(X_train, y_train)
+pred = reg.predict(X_test)
+    </code>
+</pre>
 
     <h3><b>Conclusion</b></h3>
     <p align = "justify">Vehicle value forecast can be a difficult assignment because of the high number of qualities that ought to be considered for the precise expectation. In this paper, I have developed a model that can accurately predict the price of the car given its features. I have built up a model that portrays expectation rates dependent on different highlights using python. With the help of this model, you can accurately predict the price of the car. The goal was to predict the price of the car given the specifications of the car like horsepower, engine size, cylinders, and other factors. So, I initially processed the data and made it ready for building a model. Later, I implemented a machine learning model, and the results were amazing. First, the lasso regression gave a score of 90%. Afterward, random forest regression gave a prediction score of 89%, and last, the linear regression method produced a score of 76%. Out of these three techniques, the lasso regression method has the best prediction power, which is why I will choose lasso regression as my final model. With these techniques, I have great confidence in the abilities of my model. I also checked for different instances by giving random values to the model, but my model gave good price predictions. Keeping the present model as a pattern, I intend to use some advanced techniques like artificial intelligence and fuzzy logic to predict the prices of the car such that you can also predict not only price but also other features of the car.</p>

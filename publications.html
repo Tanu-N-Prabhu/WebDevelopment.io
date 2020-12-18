@@ -1,25 +1,33 @@
-<html lang="en">
+<!--
+This is the academics page. Also known as "Academics" page, the CSS style sheet is referenced as "academicsStyle.css".
+I have used many libreries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
+
+<html lang="en">  
 <head>
   <title>Home Page</title>
-    
   <!-- Necessary libraries and hyper-links for the website -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="CSS/publications.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin= "anonymous"></script>
+    <link rel="stylesheet" href="CSS/publications.css">
 </head>
-   
-<body>
     
     
-     <!-- Navigation bar code -->
+    <body>
+    
+<div class="container red topBotomBordersOut">
+ <!-- Navigation bar code -->
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
     <div class="container">
-        
-      <!-- This is for the 3 horizontal lines for responsive -->   
+
+       <!-- This is for the 3 horizontal lines for responsive -->   
       <div class="navbar-header">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -27,189 +35,293 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#" class="navbar-brand" >TNP's HUB</a>
+          
+        <a href="TNP.html" class="navbar-brand" >Tanu Nanda Prabhu</a>
       </div>
         
         
       <!-- Navigation bar options code -->
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right">
-            
-            <li>
-            <a href="index.html">Home</a>
+         
+            <a href = "academics.html"><i class="fas">&#xf19c;</i> Academics</a>
             </li>
             <li>
-            <a href="publications.html">Publications</a>
+            <a href="photo_gallery.html"><i class="fas">&#xf302;</i> Photo Gallery</a>
             </li>
             <li>
-            <a href="photo_gallery.html">Photo Gallery</a>
-            </li>
-               <li>
-            <a href = "academics.html">Academics</a>
+            <!-- Dark Mode Icon -->
+            <a><i id="dark-mode-btn" class="toggler far fa-moon"></i> Dark Mode</a>
             </li>
             
-            <!--This is for the slider for dark mode -->
-            <li><label class="switch">
-            <input type="checkbox" unchecked   onclick="myFunction()" >
-            <span class="slider round"></span>
-            </label></li>
             
         </ul>
       </nav>
     </div>
   </header>
+</div>
+        
+    <div class="container">
+            
+        <img class="center-block img-responsive" src="Img/TanuInLuther.jpg" alt="Chania" width="2000" height="1000" style="margin-top: 100px"> 
+     <br>
+         
+    <p align = "justify">Welcome to the publications page. As an author for Medium, I work explicitly with medium claimed and autonomously possessed distributions to deliver content for their perusers week by week. My writing pivots around the subjects of Python Programming, Data Science, Web Design, and Android. This includes tutorials, DIY projects, programming from scratch, and building apps as well. My publications include:Currently, I have written 51 articles and published them in 6 different publications. I share my contemplations on Computer Science and Programming on my Medium and its publications and conveying the erudition for both technical and non-technical readers.</p>
+             
+          <hr class="ruler">    
+           
+  <!-- Credits: Jakub Turský from Codepen.io "This is a Project Statistics" -->      
+    <div class="sectiontitle">
+               <h1 class = "title" align = center><b>Publication Statistics</b></h1>
+       <br>
+    </div>
+      <div class = "why">
+
+    <div id="projectFacts" class="sectionClass">
+        <div class="fullWidth eight columns">
+            <div class="projectFactsWrap">
+                <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+                    <i class="fa fa-newspaper"></i>
+                    <p id="number1" class="number">51</p>
+                    <span></span>
+                    <p>Articles</p>
+                </div>
+                <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
+                    <i class="fa fa-eye"></i>
+                    <p id="number2" class="number">789,883</p>
+                    <span></span>
+                    <p>Views</p>
+                </div>
+                <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
+                    <i class="fa fa-book"></i>
+                    <p id="number3" class="number">341,545</p>
+                    <span></span>
+                    <p>Reads</p>
+                </div>
+                <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+                    <i class="fa fa-users"></i>
+                    <p id="number4" class="number">1,047</p>
+                    <span></span>
+                    <p>Followers</p>
+                </div>
+            </div>
+        </div>
+               </div>
     
-    <!-- Article 1 -->
-     <div class="w3-container">
-            <h1 align = "center" style="margin-top: 100px"><b>Welcome To My Publications Page</b></h1>
-            <br>
-         <div class="w3-card-4" style="width:75%;">
-             <!-- Header for the articles -->
-            <header class="w3-container">
-                <h3><b>Mastering the features of Google Colaboratory</b></h3>
-                <b>Published on June 17, 2019</b>
+    </div>
+        <br>
+           <br>
+               <h1 class = "title" align = center><b>Publications - Online</b></h1>
+
+           <br>
+           <br>
+           
+    <!-- Course 1 -->
+    <div class="card1">
+        <header class="w3-container">
+                <h3><b>Presenting Python code using RISE</b></h3>
+                <b>Published on December 11, 2020</b>
             </header>
 
              <!-- Image -->
             <div class="w3-container">
-                <div class="center">
-                <img src="Img/colab.png" class="img-thumbnail" alt="Cinque Terre" width=100%>     
+                <div>
+                <img src="Img/RISE.jpeg" class="img-thumbnail" alt="Cinque Terre" width=100%>     
                 </div>
-
-                <a  data-toggle="collapse" data-target="#demo" > <h4>+ Description</h4></a>
+<br>
+                <a  data-toggle="collapse" data-target="#demo" > <h4>Click to expand/collapse</h4></a>
                 <div id="demo" class="collapse" align = "justify">
                     
                    <!-- Description  -->
-                   <p>Google Colaboratory is a research tool for data science and machine learning. It’s a jupyter notebook environment that requires no setup to use. It is by far one of the most top tools especially for data scientists because you don’t have to manually install all the packages and libraries, just import them directly by calling them. Whereas in normal IDE you have to manually install the libraries. And moreover notebooks are meant for code and explanation, it often should look like a blog post. I have been using Google colab from past two months and it has been the best tool for me. In this blog, I would be giving you guys some tips and tricks about mastering the Google Colab. Stay tuned read all the points, these were the features which even I was struggling to implement at the first place, now I mastered it. Let’s see the top best features of Google Colab notebook.
+                   <p>In this article, you will use RISE as a Python jupyter notebook extension for turning it into a live presentation.
+                       <br>
+                       <br>
+                       <b>Scenario</b>
+                       <br>
+                    Your boss/professor tells you to find the largest number in a Python list and present the result in front of the whole employees/classmates. Now there are some rules that you need to follow to impress your boss/professor. They should be able to see both the documentation and code in this presentation. You should execute the code too. You may use any presentation tool of your choice. Now, how would you be able to present your code and ace it at the same time?
+
                    <a href = "https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701?source=friends_link&sk=3ce41ebdfd2bfa577fbe8346263a2d26">
                    <br>
+                       <br>
                    <b>Read More</b></a>
                    </p>
                     
                 </div>
             </div>
-
-        <hr class="ruler">    
-        </div>
+    </div> 
+    <br>
+    <br>
+           
+        
+        
     </div>
-    
-    
-        <!-- Article 2 -->
-    
-         <div class="w3-card-4" style="width:75%;">
-             <!-- Header for the articles -->
-            <header class="w3-container">
-                <h3><b>Data Cleaning using Python with Pandas Library.</b></h3>
-                <b>Published on Jun 21, 2019</b>
-            </header>
 
-             <!-- Image -->
-            <div class="w3-container">
-                <div class="center">
-                <img src="Img/dataCleaning.png" class="img-thumbnail" alt="Cinque Terre" width=100%>     
-                </div>
-
-                <a  data-toggle="collapse" data-target="#demo2" > <h4>+ Description</h4></a>
-                <div id="demo2" class="collapse" align = "justify">
-                    
-                   <!-- Description  -->
-                   <p>Even though this tutorial is small, but it’s a good way to start on small things and get our hands dirty later on. I will make sure that everyone with no prior experience in python programming or don’t know what is data science or data cleaning can easily understand this tutorial. I did not know python in the first place, so even for me, this was a good place to start. One thing with python is that the code is self-explanatory, your focus should not be what the code does, because the code pretty much says what it does, rather you should tell why did you choose to do this, the “why” factor is important than the “what” factor.
-                   <a href = "https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb">
-                   <br>
-                   <b>Read More</b></a>
-                   </p>
-                    
-                </div>
-            </div>
-
-        <hr class="ruler">    
-        </div>
-    
-     <!-- Article 3 -->
-    
-         <div class="w3-card-4" style="width:75%;">
-             <!-- Header for the articles -->
-            <header class="w3-container">
-                <h3><b>Manipulating the data with Pandas using Python.</b></h3>
-                <b>Published on Jun 21, 2019</b>
-            </header>
-
-             <!-- Image -->
-            <div class="w3-container">
-                <div class="center">
-                <img src="Img/pandas%20manipulation.png" class="img-thumbnail" alt="Cinque Terre" width=100%>     
-                </div>
-
-                <a  data-toggle="collapse" data-target="#demo3" > <h4>+ Description</h4></a>
-                <div id="demo3" class="collapse" align = "justify">
-                    
-                   <!-- Description  -->
-                   <p>In this tutorial we will only use the pandas library to perform the below calculations, the pandas library itself will provide us the option of calculating the sum and plotting a bar graph, you need not import matplotlib to plot a graph, pandas library will provide you the option of plotting a bar graph. This is would be very important to know to plot a bar graph using pandas DataFrame. You don’t have to install any pandas library if you are using Google Colab notebook then just import it. Otherwise, you have to manually install it in your command prompt by saying pip install pandas. The reason for aliasing (pd) is that I don’t have to write to pandas every single time when I want to use any methods by aliasing I can write pd.method name instead.
-                   <a href = "https://towardsdatascience.com/manipulating-the-data-with-pandas-using-python-be6c5dfabd47">
-                   <br>
-                   <b>Read More</b></a>
-                   </p>
-                    
-                </div>
-            </div>
-
-        <hr class="ruler">    
-        </div>
+               
     
     
-    <!----------- Footer ------------>
-    <div class="container">
+<!----------- Footer ------------>
+    <div class="container" >
     <section style="height:80px;"></section>
-	<div class="row" style="text-align:center;">
-	
-	</div>
+	<div class="row" style="text-align:center;"></div>
     <footer class="footer-bs">
         <div class="row">
         	<div class="col-md-4 footer-brand animated fadeInLeft">
-            	<h2>About this website</h2>
-                <p align = "justify">This website is more like my resume, this is a portfolio. Here in this website you can find all the achievements, awards, publications and many more. Take a deep breadth and surf the website.</p>
+            	<h2>About the website</h2>
+                <p align = "justify">This website is more like an online version of me. Here on this website, you can find all the achievements, awards, publications like I mentioned earlier. Take a deep breath and surf the website. Don’t press “Ctrl-I: to copy all the codes. If you do so, at least ask or tell me before you do it</p>
                 <p><b>© 2020 Canada, All rights reserved</b></p>
             </div>
         	<div class="col-md-4 footer-social animated fadeInDown">
-            	<h4>Menu -</h4>
-            	
+                <h4><b>Menu -</b></h4>
             	<div class="col-md-6">
                     <ul >
-                        <li><a href="#">TNP's HUB</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Publications</a></li>
-                        <li><a href="#">Profile Card</a></li>
-                        <li><a href "#">Photo Gallery</a></li>
+                        <li><a href="TNP.html">TNP</a></li>
+                        <li><a href="#">Academics</a></li>
+                        <li><a href="#">Projects</a></li>
+
+                        <li><a href="#">Photo Gallery</a></li>
+
                     </ul>
                 </div>
             </div>
-            
-            
         	<div class="col-md-2 footer-social animated fadeInDown">
-            	<h4>Follow Me -</h4>
+                <h4><b>Follow Me -</b></h4>
+                <div class="col-md-6">
             	<ul>
-                	<li><a href="#">Facebook</a></li>
-                	<li><a href="#">Twitter</a></li>
-                	<li><a href="#">Instagram</a></li>
-                	<li><a href="#">YouTube</a></li>
+                	<li><a href= "https://www.facebook.com/tanun.prabhu">Facebook</a></li>
+                	<li><a href="https://github.com/Tanu-N-Prabhu">GitHub</a></li>
+                	<li><a href="https://www.instagram.com/tanunprabhu/?hl=en">Instagram</a></li>
+                	<li><a href="https://www.youtube.com/channel/UCYaFMhkIETmkYGrlaO1UXgA">YouTube</a></li>
                 </ul>
             </div>
         </div>
-   
+        </div>
     </footer>
-    <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="https://github.com/Tanu-N-Prabhu/myWebsite.io">Tanu Nanda Prabhu</a></p></section>
-
+        <section style="text-align:center; margin:10px auto;"><p class="designedBy">Designed by <a class = "footer" href="https://github.com/Tanu-N-Prabhu/myWebsite.io"><b>Tanu Nanda Prabhu</b></a></p>
+        </section>
+        
+        
 </div> 
+
     
-    
-    
+
 <!-- This is the javascript code for the slider of dark mode -->    
 <script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
+function myFunction() 
+{
+    var element = document.body;
+    element.classList.toggle("dark-mode");
 }
-</script>  
-    </body>
+
+
+var app = document.getElementsByTagName("BODY")[0];
+if (localStorage.lightMode == "dark") 
+{
+    app.setAttribute("data-light-mode", "dark");
+}
     
+
+function toggle_light_mode() 
+{
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") 
+    {
+        localStorage.lightMode = "light";
+        app.setAttribute("data-light-mode", "light");
+    } 
+    else 
+    {
+        localStorage.lightMode = "dark";
+        app.setAttribute("data-light-mode", "dark");
+    }
+    console.log("lightMode = " + localStorage.lightMode);
+}
+
+
+document.getElementById('dark-mode-btn').addEventListener('click', function (e) 
+{
+    const toggler = document.body;
+    toggler.classList.toggle('dark-mode');
+    const target = e.target;
+    target.classList.toggle('fa-moon');
+    target.classList.toggle('fa-sun');
+});
+    
+     $.fn.jQuerySimpleCounter = function( options ) {
+	    var settings = $.extend({
+	        start:  0,
+	        end:    100,
+	        easing: 'swing',
+	        duration: 400,
+	        complete: ''
+	    }, options );
+
+	    var thisElement = $(this);
+
+	    $({count: settings.start}).animate({count: settings.end}, {
+			duration: settings.duration,
+			easing: settings.easing,
+			step: function() {
+				var mathCount = Math.ceil(this.count);
+				thisElement.text(mathCount);
+			},
+			complete: settings.complete
+		});
+	};
+
+
+$('#number1').jQuerySimpleCounter({end: 51,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 789883,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 341545,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 1047,duration: 2500});
+
+
+    
+     $(document).ready(function() {
+  
+  typing( 0, $('.typewriter-text').data('text') );
+
+  function typing( index, text ) {
+    
+    var textIndex = 1;
+
+    var tmp = setInterval(function() {
+      if ( textIndex < text[ index ].length + 1 ) {
+				$('.typewriter-text').text( text[ index ].substr( 0, textIndex ) );
+				textIndex++;
+			} else {
+        setTimeout(function() { deleting( index, text ) }, 2000);
+        clearInterval(tmp);
+      }
+
+		}, 150);
+
+	}
+
+	function deleting( index, text ) {
+
+    var textIndex = text[ index ].length;
+
+    var tmp = setInterval(function() {
+
+      if ( textIndex + 1 > 0 ) {
+        $('.typewriter-text').text( text[ index ].substr( 0, textIndex ) );
+        textIndex--;
+      } else {
+        index++;
+        if ( index == text.length ) { index = 0; }
+        typing( index, text );
+        clearInterval(tmp);
+      }
+
+		}, 150)
+
+  }
+
+});
+    
+</script>
+</body>
+</html>
+
+
     

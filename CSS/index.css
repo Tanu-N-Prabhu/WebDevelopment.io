@@ -12,22 +12,18 @@ div.container a
     cursor: pointer;
 }
 
-p.text{
-    font-size: 18px;
-}
-
-div.why{
-    padding: 50px;
-    background-color: #FFAA80;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-}
+    div.why{
+        padding: 50px;
+        background-color: #FFAA80;
+        width: 100%;
+        justify-content: center;
+  align-items: center;
+        border-radius: 25px;
+    }
 
 
 /* Top and Bottom borders go out */
-div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+div.topBotomBordersOut a.hover:before, div.topBotomBordersOut a.hover:after
 {
     position: absolute;
     left: 0px;
@@ -39,35 +35,85 @@ div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
     transition: all 0.3s;
 }
 
-div.topBotomBordersOut a:before
+/* Top and Bottom borders go out */
+div.topBotomBordersOut a.navbar-brand:before, div.topBotomBordersOut a.navbar-brand:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: black;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+
+div.topBotomBordersOut a.navbar-brand:before
 {
     top: 0px;
     transform: translateY(10px);
 }
 
-div.topBotomBordersOut a:after
+div.topBotomBordersOut a.navbar-brand:after
 {
     bottom: 0px;
     transform: translateY(-10px);
 }
 
-div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+div.topBotomBordersOut a.navbar-brand:hover:before, div.topBotomBordersOut a.navbar-brand:hover:after
 {
     opacity: 1;
     transform: translateY(0px);
 }
 
     
-
-a{
-    color: red
+    
+div.topBotomBordersOut a.hover:before
+{
+    top: 0px;
+    transform: translateY(10px);
 }
 
-.navbar-inverse .navbar-brand {
+div.topBotomBordersOut a.hover:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a.hover:hover:before, div.topBotomBordersOut a.hover:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+    
+    
+    /* index.css */
+    
+
+    a{
+        color: blue;
+    }
+
+    .navbar-inverse .navbar-brand {
 color: snow;
-    font-size: 20px;
-    font-weight: bolder;
+        font-size: 20px;
+        font-weight: bolder;
+    
+    
+    
 }
+
+    
+    
+    
+    body {
+font-family: Arial, Helvetica, sans-serif;
+        
+}
+
+
 
 .navbar .nav {
 font-family: 'Open Sans', sans-serif;
@@ -167,6 +213,7 @@ background-color: #87CEFA;
 
 
 
+
    
     
 /* This is for the paragraph Why, How and When of my website */    
@@ -194,10 +241,6 @@ p.title{
 
     
     
-
-    a.footer{
-        color: red;
-    }
 
 
 .footer-bs {
@@ -561,3 +604,4 @@ a.footer{
     text-align: center
 }
    
+

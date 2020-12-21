@@ -1,78 +1,36 @@
+<!--
+This is the Gallery page. Also known as "Photography" page, the CSS style sheet is referenced as "galleryStyles.css".
+I have used many libraries, code snippets, and icons to build this front page.
+Author: Tanu Nanda Prabhu
+-->
+
 <html>
 <head>
+    
+    <!-- Necessary libraries and hyper-links for the website -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Photography</title>
+    <title>Photography</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
-  <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin= "anonymous"></script>
-        <link rel="stylesheet" href="CSS/index.css">
+    <!-- Style Sheet Reference -->
+    <link rel="stylesheet" href="CSS/galleryStyles.css">
 
 </head>
 <body>
     
-    <style>
     
-    
-    /* This is for the paragraph Why, How and When of my website */    
-p{
-font-size: 17px;
-    color: black;
-}
-
-
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-    padding: 2px;
-}
-
-.tz-gallery .lightbox img {
-    width: 100%;
-    border-radius: 0;
-    position: relative;
-}
-
-
-
-
-.baguetteBox-button {
-    color: red;
-    
-        }
-        
-
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-}
-    
-
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-}
-     .dark-mode .first{
-        color: white;
-    }
-    
-        .dark-mode .quote{
-            color: white;
-        }
-    </style>
-    
-    <div class="container red topBotomBordersOut">
- <!-- Navigation bar code -->
+<div class="container red topBotomBordersOut">
+<!-- Navigation bar code -->
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
     <div class="container">
 
@@ -88,59 +46,54 @@ font-size: 17px;
         <a href="TNP.html" class="navbar-brand" >Tanu Nanda Prabhu</a>
       </div>
         
-        
       <!-- Navigation bar options code -->
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right">
             
-             <li>
-            
+            <li>
             <a class = "hover" href="index.html"><i class="fas">&#xf015;</i> Home</a>
             </li>
             <li>
-            
-                <a class = "hover" href="publications.html"><i class="fas">&#xf02d;</i> Publications</a>
+            <a class = "hover" href="publications.html"><i class="fas">&#xf02d;</i>Publications</a>
             </li>
-                <li>
-                <a class = "hover" href = "myWebsite.io-master/academics.html"><i class="fas">&#xf19c;</i> Academics</a>
-                </li>
-                <li>
-                <a class = "hover"  href = "project.html"><i class="fa fa-keyboard-o"></i> Projects</a>
-                </li>
-                
-                <li> 
-                <!-- Dark Mode Icon -->
-                <a class = "hover"><i id="dark-mode-btn" class="toggler far fa-moon"></i> Dark Mode</a>
-                </li> 
+            <li>
+            <a class = "hover" href = "myWebsite.io-master/academics.html"><i class="fas">&#xf19c </i> Academics</a>
+            </li>
+            <li>
+            <a class = "hover"  href = "project.html"><i class="fa fa-keyboard-o"></i> Projects</a>
+            </li>
+            <li> 
+            <!-- Dark Mode Icon -->
+            <a class = "hover"><i id="dark-mode-btn" class="toggler far fa-moon"></i> Dark Mode</a>
+            </li> 
             
         </ul>
       </nav>
     </div>
     </header>
     <br>
-        <br>
-          <br>
+    <br>
+    <br>
     
-     
-
-       <img class="center-block img-responsive" src="https://lh3.googleusercontent.com/fife/ABSRlIpDyL-XJUw3N0zKVceFyVV6HJUl68Zxl-o91FEfr1P-HTkByamDMspN2BC08xY1D5DFl-sWQUT3-UdmpxYAcwv49t81AIcnRqR4XAfQp3iHX9lwPgp7gVcqrVryXqh-EXjT1_tUB3QFaj5K-_pHZ2zS0eItxSPxbWvDMiQlAt_ldZf07GxuIQLMJBhptjp4JEdDHQn-zAp_kOKuAwIge5K1BMJBMCLfcrDeXQq1IPPZDyqEjPMysQ9QpIfgJHb_rTeYbEoJpDwuJ75fiSuqdTcEKLoz_zAXInSfdOiwE5F9nXBom0z7jccvLNV11gaC3LJJluIp86OGF4fiMtjb9PgIljcQ_917wHgRPkc6F02dywtRo9Rc8OrLq1lg35RgnpwST3AreBQnEcYfDoU4mGd3c4gnenqt0Lm68QczrTRAjj_Wcx5DVYhixjjgvfMvuvxjeJAiNR8xL_VDlLgeNJNF2aO57610QVC6uz41HAxqfhQ8IX4WKGfWBd-P2D1xLEGiO_1GO9Kxv_dZcHe7ecxkYNv5rRlrk8j59vsq2_PrpqJKGFRXZvTf4s0P6M23Ek7lDhlVqVw8PQdnoB0TxBIqhvpgg5_9Lrsl5z_vm7ZtTxI_lULAQAVdYK3xSrbzer3QP-avScEDKZ_KBceAtrnNzjjrMBxzKCqKQ4qMwEhiLH_U3hivEwyiRCvQouFjJu1rpQZay-sl_lmxwYqmHZc4xmwJpAEGQKMh8w0=s573-w573-h407-no?authuser=0" class="image" alt="Pineapple" style="margin-top: 50px; border-radius: 15px; width: 75%">
+    <!-- Main Image -->
+    <img class="center-block img-responsive" src="https://lh3.googleusercontent.com/fife/ABSRlIpDyL-XJUw3N0zKVceFyVV6HJUl68Zxl-o91FEfr1P-HTkByamDMspN2BC08xY1D5DFl-sWQUT3-UdmpxYAcwv49t81AIcnRqR4XAfQp3iHX9lwPgp7gVcqrVryXqh-EXjT1_tUB3QFaj5K-_pHZ2zS0eItxSPxbWvDMiQlAt_ldZf07GxuIQLMJBhptjp4JEdDHQn-zAp_kOKuAwIge5K1BMJBMCLfcrDeXQq1IPPZDyqEjPMysQ9QpIfgJHb_rTeYbEoJpDwuJ75fiSuqdTcEKLoz_zAXInSfdOiwE5F9nXBom0z7jccvLNV11gaC3LJJluIp86OGF4fiMtjb9PgIljcQ_917wHgRPkc6F02dywtRo9Rc8OrLq1lg35RgnpwST3AreBQnEcYfDoU4mGd3c4gnenqt0Lm68QczrTRAjj_Wcx5DVYhixjjgvfMvuvxjeJAiNR8xL_VDlLgeNJNF2aO57610QVC6uz41HAxqfhQ8IX4WKGfWBd-P2D1xLEGiO_1GO9Kxv_dZcHe7ecxkYNv5rRlrk8j59vsq2_PrpqJKGFRXZvTf4s0P6M23Ek7lDhlVqVw8PQdnoB0TxBIqhvpgg5_9Lrsl5z_vm7ZtTxI_lULAQAVdYK3xSrbzer3QP-avScEDKZ_KBceAtrnNzjjrMBxzKCqKQ4qMwEhiLH_U3hivEwyiRCvQouFjJu1rpQZay-sl_lmxwYqmHZc4xmwJpAEGQKMh8w0=s573-w573-h407-no?authuser=0" class="image" alt="Pineapple" style="margin-top: 50px; border-radius: 15px; width: 75%">
     <br>
 
+    <p class = "first" align = "justify">Welcome to the photographer side of me. On this page, you can find all of my photographies. Well, I'm not the best but trying hard to be one. In my free time I just go to downtown or any other place where I can click some pictures. Most of the time I click pictures from my phone, which is OnePlus 6T.</p>
 
+    <blockquote class="quote"><b>Rear Primary Camera</b>: Sony IMX 519K Sensor, Megapixels: 16, Pixel Size: 1.22 µm, OIS: Yes, EIS: Yes, Autofocus: PDAF, Aperture: f/1.7.
 
-        <p class = "first" align = "justify">Welcome to the photographer side of me. On this page, you can find all of my photographies. Well, I'm not the best but trying hard to be one. In my free time I just go to downtown or any other place where I can click some pictures. Most of the time I click pictures from my phone, which is OnePlus 6T.</p>
-        
-        <blockquote class="quote"><b>Rear Primary Camera</b>: Sony IMX 519K Sensor, Megapixels: 16, Pixel Size: 1.22 µm, OIS: Yes, EIS: Yes, Autofocus: PDAF, Aperture: f/1.7.
-    
-        <b>Rear Secondary Camera</b>: Sony IMX 376K Sensor, Megapixels: 20, Pixel Size: 1.0 µm, Autofocus: PDAF, Aperture: f/1.7</blockquote>
+    <b>Rear Secondary Camera</b>: Sony IMX 376K Sensor, Megapixels: 20, Pixel Size: 1.0 µm, Autofocus: PDAF, Aperture: f/1.7</blockquote>
 
     <hr class="ruler">  
-        <div class="sectiontitle">
-               <h1 class = "title" align = center><b>My Captures</b></h1>
-       <br>
+    
+    <div class="sectiontitle">
+        <h1 class = "title" align = center><b>My Captures</b></h1>
+        <br>
         <br>
     </div>
    
+    <!-- Light Box Gallery -->
     <div class="tz-gallery">
 
         <div class="row">
@@ -176,8 +129,7 @@ font-size: 17px;
                 </a>
             </div>
             
-            <!--Second -->
-            
+            <!--Second Row -->
             
             <div class="col-sm-6 col-md-12">
                 <a class="lightbox" href="Gallery/IMG_20200824_173845__01.jpg">
@@ -215,101 +167,100 @@ font-size: 17px;
                 </a>
             </div>
 
-
         </div>
 
-    </div>
-    
-
-        
+    </div> 
     
 </div>
 
 <!----------- Footer ------------>
-    <div class="container" >
-    <section style="height:80px;"></section>
-	<div class="row" style="text-align:center;"></div>
-    <footer class="footer-bs">
-        <div class="row">
-        	<div class="col-md-4 footer-brand animated fadeInLeft">
-            	<h2>About the website</h2>
-                <p align = "justify">This website is more like an online version of me. Here on this website, you can find all the achievements, awards, publications like I mentioned earlier. Take a deep breath and surf the website. Don’t press “Ctrl-I: to copy all the codes. If you do so, at least ask or tell me before you do it</p>
-                <p><b>© 2020 Canada, All rights reserved</b></p>
-            </div>
-        	<div class="col-md-4 footer-social animated fadeInDown">
-                <h4><b>Menu -</b></h4>
-            	<div class="col-md-6">
-                    <ul >
-                        <li><a href="TNP.html">TNP</a></li>
-                        <li><a href="pub">Publications</a></li>
-                        <li><a href="academics.html">Academics</a></li>
-                        <li><a href="project.html">Projects</a></li>
+<div class="container" >
+<section style="height:80px;"></section>
+<div class="row" style="text-align:center;"></div>
+<footer class="footer-bs">
+    <div class="row">
+        <div class="col-md-4 footer-brand animated fadeInLeft">
+            <h2>About the website</h2>
+            <p align = "justify">This website is more like an online version of me. Here on this website, you can find all the achievements, awards, publications like I mentioned earlier. Take a deep breath and surf the website. Don’t press “Ctrl-I: to copy all the codes. If you do so, at least ask or tell me before you do it</p>
+            <p><b>© 2020 Canada, All rights reserved</b></p>
+        </div>
+        <div class="col-md-4 footer-social animated fadeInDown">
+            <h4><b>Menu -</b></h4>
+            <div class="col-md-6">
+                <ul >
+                    <li><a href="TNP.html">TNP</a></li>
+                    <li><a href="pub">Publications</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="project.html">Projects</a></li>
 
-                        <li><a href="gallery.html">Photography</a></li>
+                    <li><a href="gallery.html">Photography</a></li>
 
-                    </ul>
-                </div>
-            </div>
-        	<div class="col-md-2 footer-social animated fadeInDown">
-                <h4><b>Follow Me -</b></h4>
-                <div class="col-md-6">
-            	<ul>
-                	<li><a href= "https://www.facebook.com/tanun.prabhu">Facebook</a></li>
-                	<li><a href="https://github.com/Tanu-N-Prabhu">GitHub</a></li>
-                	<li><a href="https://www.instagram.com/tanunprabhu/?hl=en">Instagram</a></li>
-                	<li><a href="https://www.youtube.com/channel/UCYaFMhkIETmkYGrlaO1UXgA">YouTube</a></li>
                 </ul>
             </div>
         </div>
+        <div class="col-md-2 footer-social animated fadeInDown">
+            <h4><b>Follow Me -</b></h4>
+            <div class="col-md-6">
+            <ul>
+                <li><a href= "https://www.facebook.com/tanun.prabhu">Facebook</a></li>
+                <li><a href="https://github.com/Tanu-N-Prabhu">GitHub</a></li>
+                <li><a href="https://www.instagram.com/tanunprabhu/?hl=en">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UCYaFMhkIETmkYGrlaO1UXgA">YouTube</a></li>
+            </ul>
         </div>
-    </footer>
-        <section style="text-align:center; margin:10px auto;"><p class="designedBy">Designed by <a class = "footer" href="https://github.com/Tanu-N-Prabhu/myWebsite.io"><b>Tanu Nanda Prabhu</b></a></p>
-        </section>
     </div>
+    </div>
+</footer>
+    <section style="text-align:center; margin:10px auto;"><p class="designedBy">Designed by <a class = "footer" href="https://github.com/Tanu-N-Prabhu/myWebsite.io"><b>Tanu Nanda Prabhu</b></a></p>
+    </section>
+</div>
+    
+<!-- Javascript Code -->   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    
 <script>
     baguetteBox.run('.tz-gallery');
     function myFunction() 
-{
+    {
     var element = document.body;
     element.classList.toggle("dark-mode");
-}
+    }
 
 
-var app = document.getElementsByTagName("BODY")[0];
-if (localStorage.lightMode == "dark") 
-{
-    app.setAttribute("data-light-mode", "dark");
-}
-    
-
-function toggle_light_mode() 
-{
     var app = document.getElementsByTagName("BODY")[0];
     if (localStorage.lightMode == "dark") 
     {
-        localStorage.lightMode = "light";
-        app.setAttribute("data-light-mode", "light");
+    app.setAttribute("data-light-mode", "dark");
+    }
+
+
+    function toggle_light_mode() 
+    {
+    var app = document.getElementsByTagName("BODY")[0];
+    if (localStorage.lightMode == "dark") 
+    {
+    localStorage.lightMode = "light";
+    app.setAttribute("data-light-mode", "light");
     } 
     else 
     {
-        localStorage.lightMode = "dark";
-        app.setAttribute("data-light-mode", "dark");
+    localStorage.lightMode = "dark";
+    app.setAttribute("data-light-mode", "dark");
     }
     console.log("lightMode = " + localStorage.lightMode);
-}
+    }
 
 
-document.getElementById('dark-mode-btn').addEventListener('click', function (e) 
-{
+    document.getElementById('dark-mode-btn').addEventListener('click', function (e) 
+    {
     const toggler = document.body;
     toggler.classList.toggle('dark-mode');
     const target = e.target;
     target.classList.toggle('fa-moon');
     target.classList.toggle('fa-sun');
-});
-    
-    
+    });
+
+
 </script>
 
 </body>

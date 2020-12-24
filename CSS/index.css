@@ -23,7 +23,7 @@ div.container a
 
 
 /* Top and Bottom borders go out */
-div.topBotomBordersOut a.hover:before, div.topBotomBordersOut a.hover:after
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
 {
     position: absolute;
     left: 0px;
@@ -35,58 +35,25 @@ div.topBotomBordersOut a.hover:before, div.topBotomBordersOut a.hover:after
     transition: all 0.3s;
 }
 
-/* Top and Bottom borders go out */
-div.topBotomBordersOut a.navbar-brand:before, div.topBotomBordersOut a.navbar-brand:after
-{
-    position: absolute;
-    left: 0px;
-    width: 100%;
-    height: 2px;
-    background: black;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-}
-
-
-div.topBotomBordersOut a.navbar-brand:before
+div.topBotomBordersOut a:before
 {
     top: 0px;
     transform: translateY(10px);
 }
 
-div.topBotomBordersOut a.navbar-brand:after
+div.topBotomBordersOut a:after
 {
     bottom: 0px;
     transform: translateY(-10px);
 }
 
-div.topBotomBordersOut a.navbar-brand:hover:before, div.topBotomBordersOut a.navbar-brand:hover:after
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
 {
     opacity: 1;
     transform: translateY(0px);
 }
 
     
-    
-div.topBotomBordersOut a.hover:before
-{
-    top: 0px;
-    transform: translateY(10px);
-}
-
-div.topBotomBordersOut a.hover:after
-{
-    bottom: 0px;
-    transform: translateY(-10px);
-}
-
-div.topBotomBordersOut a.hover:hover:before, div.topBotomBordersOut a.hover:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
-}
-
     
     
     /* index.css */
@@ -163,7 +130,16 @@ color: black
 color: white;
 
 }
+/* This is for the paragraph Why, How and When of my website */    
+p{
+font-size: 17px;
+    color: black;
+}
 
+
+.fa-moon{
+    color: white;
+}
 .navbar-inverse .navbar-nav>li>a {
 color: black;
 }
@@ -211,10 +187,6 @@ background-color: #87CEFA;
 
 
 
-
-
-
-   
     
 /* This is for the paragraph Why, How and When of my website */    
 
@@ -234,6 +206,7 @@ p.title{
 
 }
     
+
     h1.why{
         font-family: cursive;
     }
@@ -489,6 +462,9 @@ border-radius: 25px;
         background-color: black;
     }
 
+.dark-mode .typewriter-text{
+    color: #FFAA80;
+}
     
     
 

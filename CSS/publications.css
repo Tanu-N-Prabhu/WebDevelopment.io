@@ -12,6 +12,7 @@ div.container a
     cursor: pointer;
 }
 
+
     div.why{
         padding: 50px;
         background-color: #FFAA80;
@@ -21,6 +22,9 @@ div.container a
         border-radius: 25px;
     }
 
+.dark-mode div.why{
+    background-color: white;
+}
 
 /* Top and Bottom borders go out */
 div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
@@ -181,6 +185,13 @@ background-color: #87CEFA;
 
 
    
+img.center-block {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+}
+
     
 /* This is for the paragraph Why, How and When of my website */    
 p{
@@ -237,6 +248,9 @@ letter-spacing: 3px;
 margin-bottom:10px;
 }
 
+.fa-moon{
+color: white;
+}
 .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.list li { padding:5px 0px;}
 .footer-bs .footer-nav ul.list a { color:black; }
@@ -516,22 +530,61 @@ color: #FFAA80;
  
 }
     
-.dark-mode .card:hover .tags .tag {
-  background-color: white;
-  color: black;
-}
+
     
-    .dark-mode .designedBy{
+.dark-mode .footer-bs{
+background-color: white;
+}
+
+
+.dark-mode .footer-bs .footer-social a:hover{color: #FFAA80;}
+
+.dark-mode a.footer:hover{color: #FFAA80;}
+.dark-mode a.footer{color: white;}
+
+
+.dark-mode .title{
 color: white;
-    }
-.dark-mode .footer{
+}
+
+
+
+.dark-mode .navbar-inverse .navbar-brand:hover {
+color: #FFAA80;
+
+}
+
+.dark-mode .navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+color: #FFAA80;
+
+}
+
+
+
+.dark-mode .designedBy{
+color: white;
+}
+
+
+a.footer:hover { color:white; font-style: italic; }
+a.footer{
+color: black;
+}
+
+
+.dark-mode .first{
     color: white;
 }
 
-
-.dark-mode .why1{
-    background-color: white;
+.dark-mode .first2{
+    color: white;
 }
+
+.dark-mode .blockquote{
+    color: white;
+}
+
 
 .dark-mode .projectFactsWrap .item:nth-child(1) {
     background-color: white;
@@ -665,6 +718,7 @@ padding: 50px;
 
 }
 
+
 .projectFactsWrap .item:nth-child(4){
   background: #FFAA80;
     color: black;
@@ -703,9 +757,22 @@ padding: 50px;
 
 }
 
+
 .projectFactsWrap .item:hover span{
   background: white;
 }
+
+
+
+
+.dark-mode .projectFactsWrap .item:hover i, .dark-mode .projectFactsWrap .item:hover p{
+  color: black;
+
+}
+
+
+
+
 
 @media (max-width: 786px){
   .projectFactsWrap .item {
@@ -759,7 +826,10 @@ a:hover>div { display: block; }
 
 
 
-
+p.first::first-letter {
+  font-size: 150%;
+  font-weight: bolder
+}
 
 
 

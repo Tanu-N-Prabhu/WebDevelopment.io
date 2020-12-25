@@ -1,4 +1,3 @@
-<!-- This is the javascript code for the slider of dark mode -->    
 function myFunction() 
 {
 var element = document.body;

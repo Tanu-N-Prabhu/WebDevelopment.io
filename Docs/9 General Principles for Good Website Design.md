@@ -9,7 +9,7 @@
 
 # Quick Summary
 
-<p align = "justify">Designing a good website is often challenging and hard. There may be billions and billions of websites out there only a few thousand of them are mostly good websites. People spend a lot of time on the internet for shopping, ordering food online, exploring their university websites, reading articles from different websites and many more. You can make a user’s day bad just by designing a bad website. It’s time to change. If you are on the verge of designing a website or already have a website and thinking to update your crappy website, this article is totally for you. Don’t worry I got you. I was sailing on the same boat too. So throughout the tutorial, I want you guys to follow two big quotes regarding design.</p>
+Designing a good website is often challenging and hard. There may be billions and billions of websites out there only a few thousand of them are mostly good websites. People spend a lot of time on the internet for shopping, ordering food online, exploring their university websites, reading articles from different websites and many more. You can make a user’s day bad just by designing a bad website. It’s time to change. If you are on the verge of designing a website or already have a website and thinking to update your crappy website, this article is totally for you. Don’t worry I got you. I was sailing on the same boat too. So throughout the tutorial, I want you guys to follow two big quotes regarding design.
 
 > **Steve Jobs**: Design is not just what it looks like and feels like. Design is how it works.
 
@@ -29,4 +29,8 @@ This is one of the most important features or a principle that you must keep in 
 * Follow ***real-world conventions*** or use the user’s language for naming the options. Don’t use jargons
 * Avoid ***too many clicks*** inside the website.
 
-Motivate, learn and teach yourself how to implement the above tips by looking at some of the best websites available out there. For example, Gmail — Google. I will use the same example in most of this tutorial. Because why not it’s one of the best website/application on the planet.
+***Motivate***, ***learn*** and ***teach*** yourself how to implement the above tips by looking at some of the best websites available out there. For example, [Gmail](https://mail.google.com/) — Google. I will use the same example in most of this tutorial. Because why not it’s one of the best website/application on the planet.
+
+![alt](https://miro.medium.com/max/1050/1*2PUZU5-Mh81taCZqCtTKxg.png)
+
+

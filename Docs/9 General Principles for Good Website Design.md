@@ -31,6 +31,32 @@ This is one of the most important features or a principle that you must keep in 
 
 ***Motivate***, ***learn*** and ***teach*** yourself how to implement the above tips by looking at some of the best websites available out there. For example, [Gmail](https://mail.google.com/) — Google. I will use the same example in most of this tutorial. Because why not it’s one of the best website/application on the planet.
 
-![alt](https://miro.medium.com/max/1050/1*2PUZU5-Mh81taCZqCtTKxg.png)
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*2PUZU5-Mh81taCZqCtTKxg.png) | 
+|:--:| 
+| **Home page of my Gmail**|
 
 
+Everything in the above screenshot is easy to understand, navigate, and this website follows all the tips I have listed above. Go check it out.
+
+---
+
+## 2. Responsive design
+First, let’s get the basics ready. Responsive design means the design of a website/webpage that fits well with all the smartphones, computers, laptops or any display devices irrespective of their aspect ratios. An aspect ratio is the ***height*** and ***width*** of a display device. Every user today wants a mobile version of the website. It is the duty of the designer not only to design the website for a bigger screen but also focus on the smaller screens too. The website should not work only for a specific iPhone, Blackberry (if that’s a thing today), Samsung and One Plus phones. The design should fit every single smartphone available in the market. Well, if not every smartphone, at least try to. Some tips for responsive design are:
+
+* ***Optimize*** the images
+* nsure ***buttons*** can be easily clicked on smaller screens
+* Create ***several prototypes***
+* Consider a ***Mobile-first*** design approach
+
+> ***Hint***: If you need your to design to be the best then follow:
+> Understand → Explore → Prototype → Evaluate
+Now you guys might have heard this term before a million times “***Mobile-first design approach***”. There are some design requirements in this approach which are listed below:
+
+* Providing ***less content*** on the screen and focus on important details
+* The ***text size*** should be appropriate
+* Provide ***better interactive elements***
+* Telling the ***customers*** you want them
+* ***Client Squish Media*** (keeping the aspect ratio in mind while designing)
+
+The best example of the responsive, mobile design application is [Towards Data Science}(https://towardsdatascience.com/)

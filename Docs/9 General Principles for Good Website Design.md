@@ -59,4 +59,15 @@ Now you guys might have heard this term before a million times “***Mobile-firs
 * Telling the ***customers*** you want them
 * ***Client Squish Media*** (keeping the aspect ratio in mind while designing)
 
-The best example of the responsive, mobile design application is [Towards Data Science}(https://towardsdatascience.com/)
+The best example of the responsive, mobile design application is [Towards Data Science](https://towardsdatascience.com/)
+
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*JeT2ER1tqow6lAgsENkrlg.png) | 
+|:--:| 
+| **Screenshot captured from my smartphone (One Plus 6T)**|
+
+
+---
+
+
+

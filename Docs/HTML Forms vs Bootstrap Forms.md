@@ -2,6 +2,8 @@
 
 ## In this short tutorial, let us understand the prominence of using Bootstrap Forms over HTML forms.
 
+#### December 28, 2020 - 5 min read
+
 | ![space-1.jpg](https://cdn-images-1.medium.com/max/1200/1*E-svoB_neNygg1SSrj_Kvg.jpeg) | 
 |:--:| 
 | Paper Forms; Photo by [Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/forms?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) |
@@ -156,7 +158,7 @@ Congratulations, you have reached the end of the tutorial "**HTML Forms vs Boots
 
 ##### Written By Tanu Nanda Prabhu using Markdown
 
-###### Version 1.0 - Last Updated on 28-12-2020 on 6:22 PM
+###### Version 1.1 - Last Updated on 28-12-2020 on 6:25 PM
 
 
 

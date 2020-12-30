@@ -31,7 +31,7 @@
 1. Fill the plastic cup with water
 2. Keep it outstide.
 > The temperature should be below -7. Because duh, the water should be freeze.
-3. Average waiting time for the water to freeze in Regina dueing winter is 2 hours 18 minutes.
+3. Average waiting time for the water to freeze in Regina during winter is 2 hours 18 minutes.
 4. Once the water in the cup is frozen remove the ice, by gentle tapping at the back of the cup. Sometimes hot water works!!!
 5. Building it on top of each other, if there are gaps, please fill them with droplets of water.
 6. If you have any questions, please feel free to contact me.

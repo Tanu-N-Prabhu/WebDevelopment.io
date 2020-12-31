@@ -19,3 +19,14 @@ Well, to be clear and concise, the design that ***renders/displays*** the web pa
 ---
 
 
+## Mobile versus Desktop user usage from October 2009 — October 2016
+Now, sometimes you might think “***Should I always make my website responsive***” or “***What if my website would be used primarily on desktops or laptops***”. Well, let me tell you this, according to [broadbandsearch’s](https://www.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics#:~:text=53%20percent%20of%20web%20traffic,56.7%20percent%20from%20desktop%20users.) statistics report states that from October 2009–2016 the internet usage by ***Desktop was 48.7% and Mobile was 51.3%***.
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*8djc87dITn9vvudg8gkjnw.jpeg) | 
+|:--:| 
+| Internet Usage Worldwide Statistics by {Broadbandsearch.net](https://www.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics#:~:text=53%20percent%20of%20web%20traffic,56.7%20percent%20from%20desktop%20users) |
+
+The usage of the internet on mobile devices would be increased by 2020, because of the trend seen in the above internet usage graph. So keep in mind, your website will be accessed both on desktop and mobile devices.
+
+
+---

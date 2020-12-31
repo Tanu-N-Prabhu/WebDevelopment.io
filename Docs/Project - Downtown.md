@@ -41,13 +41,13 @@
 
 ## Photos
 
-| ![space-1.jpg](https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201225_003108.jpg) | 
+| <img src = "https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201225_003108.jpg" width="300"> | 
 |:--:| 
 | Building 1 - During Construction |
 
 ---
 
-| ![space-1.jpg](https://lh3.googleusercontent.com/5ojVcRpuijh_e-lz9nCJK3AUFArwthgIVh6X39SKl8pzmFjlGgz7yKuK6JlYF34elt6MRD3Re_345f1-3DCT54D-IoEG3kQrw1tWFmpJ6THqzCNMomsiFLt0cxFoPGWVxTmGCQcz-6bU2sOf_ktMyfZmOcfFEYrJDnRDP8iBmCDw02ogwwsFd_OkZ-OA6mBcEK-7LWEy6y1SIiPVRnru0oj1rV1NeqgI6WB7cR15OVype98IUwGgG2vIfzYC0DN39S6EP9of3fB-MGGAUDP1h977-1ygxdKulymQ0zw6DKH9vwv1NcrVEygstYlTwxvgHMNmPQ5ShtiW6VokMdt3DKzeGIVu2Xl-LK8g4x-QlJV3hI2AqgC_qTfWfKhQ0xtgKAMasqwXyCMpt6vTRgpvz1PfHulK5QL-35PJ9cTVzwasiG4wBeAMl5-gCI4yiTJmhFqZhUrucPtJ_aJiZm-XCed31OHUVlDs1jAUrX_ydRAGV-57WMgzsTumTSbEUOsKiBMCfHbSCRkKYgmWH5UvfETPR9uy_WgQm6eyrGEs7ixEQsfU8bTrHB17vzsRO4pYv3iw_FR3jdHoSr4L2E_DASNQMrIcCdLs-juQuKZpMyQwErsyArchR5VAY7B8VFc3iDVLPT-jwFqNeKK88EcuPgOWvfBQ2h8C5qFYynSG9uew2l9NRpFTdfZrvvOuXtY=w1920-h881-no?authuser=0) | 
+| ![space-1.jpg](https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201230_003311.jpg?raw=true) | 
 |:--:| 
 | Building 1 - Almost Done |
 

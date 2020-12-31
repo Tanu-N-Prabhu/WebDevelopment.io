@@ -24,9 +24,27 @@ Now, sometimes you might think “***Should I always make my website responsive*
 
 | ![space-1.jpg](https://miro.medium.com/max/1050/1*8djc87dITn9vvudg8gkjnw.jpeg) | 
 |:--:| 
-| Internet Usage Worldwide Statistics by {Broadbandsearch.net](https://www.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics#:~:text=53%20percent%20of%20web%20traffic,56.7%20percent%20from%20desktop%20users) |
+| Internet Usage Worldwide Statistics by [Broadbandsearch.net](https://www.broadbandsearch.net/blog/mobile-desktop-internet-usage-statistics#:~:text=53%20percent%20of%20web%20traffic,56.7%20percent%20from%20desktop%20users) |
 
 The usage of the internet on mobile devices would be increased by 2020, because of the trend seen in the above internet usage graph. So keep in mind, your website will be accessed both on desktop and mobile devices.
 
+
+---
+
+## How to make a website responsive?
+Well, the answer is pretty trivial and straightforward. There are many ways to do this, but the simplest way is to use [Bootstrap](https://getbootstrap.com/): the most popular HTML, CSS, and Javascript library used to build responsive, mobile-first front-end web applications. To install it all you have to do is type the following the below command:
+
+
+```
+npm install bootstrap@next
+```
+
+Read the official installation docs given below to know more about it.
+
+[Download](https://getbootstrap.com/docs/5.0/getting-started/download/)
+
+Or you can also refer to Google’s docs given below to build responsive websites as well.
+
+[Responsive Web Design](https://developers.google.com/search/mobile-sites/mobile-seo/responsive-design)
 
 ---

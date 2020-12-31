@@ -13,7 +13,7 @@
 1. Date Started - Dec 23, 2020
 2. Date Finish - Unknown - As long its cold outside
 3. Location - Balcony of Luther College, University of Regina - 2nd Floor North Side
-4. Builders - 1
+4. Built by - 1
 5. Project Owner - Tanu Nanda Prabhu
 6. Cost - 0 CAD
 

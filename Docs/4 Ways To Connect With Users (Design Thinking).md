@@ -1,6 +1,9 @@
 # 4 Ways To Connect With Users (Design Thinking)
 ## This article describes ways to connect with users during design thinking.
 
+#### January 21, 2020 - 4 min read
+
+
 
 | ![space-1.jpg](https://miro.medium.com/max/1050/1*oHEhsTuxjJC6GhyvO72uyQ.jpeg) | 
 |:--:| 
@@ -54,3 +57,10 @@ Now let me justify, as you all know User experience means how the users feel abo
 ---
 
 Now that you know how to construct empathy maps which are important steps in design thinking. Also, you now know how to connect with the user. I hope you enjoyed reading this article “4 Ways To Connect With Users (Design Thinking)”. If you have any doubts related to design then the comment section is all yours. See you stay tuned for more updates. Have fun and stay warm. Until then see you next time.
+
+
+##### Written By Tanu Nanda Prabhu using Markdown
+
+###### Version 1.1 - Last Updated on 30-12-2020 on 11:28 PM
+
+

@@ -47,13 +47,13 @@
 
 ---
 
-| ![space-1.jpg](https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201227_224625.jpg?raw=true) | 
+| <img src = "https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201227_224625.jpg?raw=true" width = "300"> | 
 |:--:| 
 | Building 1 - Almost Done |
 
 ---
 
 
-| <img src = "https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201230_003311.jpg?raw=true" width = "300"> | 
+| <img src = "https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201230_003311.jpg?raw=true"> | 
 |:--:| 
 | Building 1 with Building 2 - Progress |

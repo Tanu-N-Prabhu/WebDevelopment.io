@@ -47,12 +47,13 @@
 
 ---
 
-| ![space-1.jpg](https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201230_003311.jpg?raw=true) | 
+| ![space-1.jpg](https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201227_224625.jpg?raw=true) | 
 |:--:| 
 | Building 1 - Almost Done |
 
 ---
 
-| ![space-1.jpg](https://lh3.googleusercontent.com/zwuU3cpg_3x4i89R8xpVoAwCuKNeOc-h5n83BgkwZ9qF3BTJtMttyAc8299yOAPp76A3-ckJOWrwIA5A_QyMJUqypYh36HdhsBTmP7kkKdlmvc4XOUhOJtX_W4MoPTBo0ggusRwZctkWnZdlM3mF5WZZKxb_ZrVkknF5rPAG1wLMr9bb-F53ONiKdOQI9kwwrzfo-h6NDrYc7Xt_rdnK0Sh45_5cufOrWA_dheIl5M1NKLQ1V2zUxvdV6l9dVyIZc8o4XEKxzPPU1FzNA3IrlkUBMu-EqOoDV4oT3-OaGW_sGS-J5DZ1igje_VAuDsX2J26a8WbGWKw26gG4yKAI_RoD6pD92AeJwsm9DummbaTA-7BA3fD6TmjPdbeSJZi4nez8mrlQEGUHF6t4n1s-wefnfPcxK5zRNmETFVBNk-N5dT1ANP2kWXAL2AFyCCSFFEyBSmN7eBSFqU7A-IZQ5YswvG41RjFaKAdPVhMsj0r_qmDrZgghzUQu1ryrJ5S3HkwqQWZISHf5tmVmqLZFETLewwVLJ1trPHdZUlBZCi45bZcNsPPOYVSyv-1fCXe9uLte3P6vYAu_qWxB6L_IzC7leP2pCUNwpdru1NWDg274NVUuAUduYiH0Xe8Xv1ZsVSjXfqArU4WIldqDafFCuUX1avq3MMIR7A8cVpZxo9VDddmZHhKgKF-WKsqnYqI=w420-h915-no?authuser=0) | 
+
+| ![space-1.jpg](https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201230_003311.jpg?raw=true) | 
 |:--:| 
 | Building 1 with Building 2 - Progress |

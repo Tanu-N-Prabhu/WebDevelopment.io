@@ -48,3 +48,20 @@ Or you can also refer to Google’s docs given below to build responsive website
 [Responsive Web Design](https://developers.google.com/search/mobile-sites/mobile-seo/responsive-design)
 
 ---
+
+
+# Advantages of a good responsive design
+Let’s now get back to the significant part of the article about discussing the advantages of a good responsive design.
+
+## 1) Less Cost
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*qTDqjFtJ5dexi6_flshpGA.jpeg) | 
+|:--:| 
+| Photo by [Alexander](https://unsplash.com/@alexandermils?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) Mils on [Unsplash](https://unsplash.com/s/photos/less-money?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) |
+
+Having separate websites for different platforms (devices) would automatically increase the cost of development. So why not have a single responsive website, wherein the cost of development would be really low. Also, you won’t be wasting your precision time and resources as well. Here are the golden words that are worth noting down.
+
+
+> With a single responsive website you can fabricate a single web asset which fits all devices irrespective of their aspect ratios with minimal cost.
+
+---

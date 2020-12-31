@@ -65,3 +65,28 @@ Having separate websites for different platforms (devices) would automatically i
 > With a single responsive website you can fabricate a single web asset which fits all devices irrespective of their aspect ratios with minimal cost.
 
 ---
+
+
+## 2) Improved SEO
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*lzUw5DVFZR38QCr3hfVaLg.jpeg) | 
+|:--:| 
+| SEO by [Nicole Martins Ferreira](https://www.oberlo.com/blog/seo-tools) |
+
+
+Let’s first understand the meaning of SEO. It stands for ***Search Engine Optimization*** — a process that increases the visibility of your website on search engines like ***Google, Bing, Microsoft Edge***, etc by displaying it at the top of the search results. Keep this in mind, the better visibility your website has in the search results, the more traffic or views you are going to get. Now to read more about SEO and it’s working please refer to [searchengineland.com](https://searchengineland.com/guide/what-is-seo)
+
+> Responsive design is Google’s recommended design pattern — [Google](https://developers.google.com/search/mobile-sites/mobile-seo#select-config)
+
+
+The key to improving your ***SEO*** is making your website responsive. Now, if you want to win Google’s heart, then aim for responsiveness. This is because of two major reasons.
+
+1. All the responsive websites have a single URL irrespective of devices. So this makes Google rank or index the website efficiently.
+
+2. Similarly, with just one URL sharing, the website becomes a lot easier, rather than having 10 different URLs for different devices.
+
+
+> In websites, content plays a prominent role, often great content that is regularly updated improves our search engine ranking or index positioning.
+
+
+---

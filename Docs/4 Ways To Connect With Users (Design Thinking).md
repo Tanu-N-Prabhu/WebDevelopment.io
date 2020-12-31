@@ -37,3 +37,18 @@ I have recently completed my Human-Computer Communication graduate course. Here 
 | ![space-1.jpg](https://miro.medium.com/max/795/1*8MkbE_yV46-BoFXvB8lXsA.png) | 
 |:--:| 
 |**Empathy Map of URCourses**|
+
+---
+
+## Indicating the quadrants with User experience or Usability
+As we all know, the four quadrants of the empathy maps are Says, Thinks, Does, and Feels. Now the next question that comes to our mind is that their relationship between user experience and usability. What do you think the answer is? Ok enough talk, the relationship is as shown below:
+
+* Says → Usability
+* Thinks → User Experience
+* Does → Usability
+* Feels → User Experience
+
+Now let me justify, as you all know User experience means how the users feel about the product they are experiencing or using such as happy, sad, overwhelmed, frustrated whether they are not satisfied. Usability means ensuring that interactive products are efficient, effective, easy to remember according to the user’s perspective. So now when we consider the above give empathy map we can relate “***Says***” to “***How to add an activity or a resource***” now this is usability because it’s dealing with something to be accomplished. Likewise “***Thinks***” to “***Wasting too much time***” which is user experience, and “***Does***” to “***Clicks the help button***” which is usability because pressing a button is accomplishing a task and lastly “***Feels***” to “***Scared***” because it’s a user’s feeling. This is how we can map the quadrant's empathy maps to user experience and usability which is very important.
+
+
+---

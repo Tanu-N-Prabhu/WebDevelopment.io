@@ -2,6 +2,8 @@
 
 ## In this article, let’s see the benefits of a good responsive design
 
+#### December 31, 2020 - 6 min read
+
 
 | ![space-1.jpg](https://miro.medium.com/max/1050/1*hyO-lxRlkV0AW3sx_CMduA.jpeg) | 
 |:--:| 
@@ -118,3 +120,25 @@ A fluid design refers to the design where the contents of the website move freel
 > A responsive design is a design where you design once and use it on many screens.
 
 ---
+
+
+## 5) Faster Pages
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*83_UH7DSv9AjoCUm2qXdVQ.jpeg) | 
+|:--:| 
+| Photo by [fatbit](https://www.fatbit.com/fab/make-website-load-faster-try-easy-steps/) |
+
+Mobile or Tablet users have less patience, meaning a shorter attention span. If a webpage takes over three or at most 5 seconds to load, then who would like to wait till it finishes loading. According to [bluecorona](https://www.bluecorona.com/blog/how-fast-should-website-be/#:~:text=The%20average%20load%20time%20of,just%20by%20increasing%20site%20speed.) mobile users give up on the webpage it if takes over 3 seconds to load. Guaranteeing that your responsive site uses current execution methods, for example, and the responsive images show will help improve your site page stacking speed. To know the loading speed of your website, I highly recommend you to use [GTmetrix](https://gtmetrix.com/).
+
+---
+
+# Conclusion
+This is the end of the article titled “***Top 5 Advantages of a Good Responsive Design***”. I hope you understood the advantages of a good responsive design. So pick shrewdly and break down these focuses on the event you still can’t seem to see yourself as a responsive site. Building responsive websites stand apart as an expert business or individual. After the entirety of it’s your initial introduction for versatile clients at the primary spot. I hope you guys learned a thing or two from this article. Stay tuned for more updates. Until then, see you next time. Stay safe!
+
+
+##### Written By Tanu Nanda Prabhu using Markdown
+
+###### Version 1.1 - Last Updated on 31-12-2020 on 2:27 PM
+
+
+

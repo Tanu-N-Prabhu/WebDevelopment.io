@@ -25,3 +25,8 @@ The words such as Says, Does, Feels, and Thinks are actually the four quadrants 
 |:--:| 
 |**Empathy Map**|
 
+
+Sometimes the empathy map is not only given for the users to collect feedback. Also, the designers think in terms of the user's perspective and note down the possible questions. In the real world, empathy maps are often represented and described using sticky notes. The designers whenever they get new possible questions about the product, write it down on the sticky note and paste it on the wall or the board.
+
+---
+

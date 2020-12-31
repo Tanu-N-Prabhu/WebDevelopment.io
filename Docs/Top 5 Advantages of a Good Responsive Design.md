@@ -110,3 +110,11 @@ This is an obvious fact that if your website fits well with all the devices, it 
 |:--:| 
 | Photo by [saraads.com](https://www.saraads.com/responsive-website.html) |
 
+
+A fluid design refers to the design where the contents of the website move freely across all the screen irrespective of their resolution (number of pixels in the display). Just imagine when you have a container and you fill it with water. As you keep pouring the water, it takes the shape of the containers completely. This is how responsive websites fit the screen. I would highly recommend you to refer to the different layouts such as fixed, fluid, and elastic for responsive websites given below.
+
+[Fixed, Fluid and Elastic Layouts](https://www.saraads.com/responsive-website.html)
+
+> A responsive design is a design where you design once and use it on many screens.
+
+---

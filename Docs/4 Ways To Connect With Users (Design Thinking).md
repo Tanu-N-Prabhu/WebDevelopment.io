@@ -13,3 +13,15 @@ Connecting with users is not just talking to users over the phone, or online mee
 
 ## How do we perform empathize?
 This can be achieved by using “**Empathy Maps**”. This is a visualization that articulates what we know about the user. Using the empathy maps we can connect with the user:
+
+* We can listen to what they Say
+* We can watch what they do
+* We can ask them how they feel
+* We can ask them what they think
+
+The words such as Says, Does, Feels, and Thinks are actually the four quadrants of the Empathy Map.
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*sC8g3_GDYdog8YtDZrVeTQ.png) | 
+|:--:| 
+|**Empathy Map**|
+

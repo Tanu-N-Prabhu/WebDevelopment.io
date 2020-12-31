@@ -30,3 +30,10 @@ Sometimes the empathy map is not only given for the users to collect feedback. A
 
 ---
 
+## Example of an empathy map
+I have recently completed my Human-Computer Communication graduate course. Here in the initial classes, my professor gave us our first assignments, wherein we had to draw empathy maps on our university website (University of Regina). The name of the university website is [URCourses](https://www.uregina.ca/urcourses/). The question of the assignment was “***Creating an Empathy Map as a Teacher on University of Regina Courses application***”. You can take this example as a reference and then draw similar empathy maps in the future if you are asked. You might not be able to access the website because it’s only for university students to access the grades, courses, and material, and many more for the semester. But just learn the way to draw it initially.
+
+
+| ![space-1.jpg](https://miro.medium.com/max/795/1*8MkbE_yV46-BoFXvB8lXsA.png) | 
+|:--:| 
+|**Empathy Map of URCourses**|

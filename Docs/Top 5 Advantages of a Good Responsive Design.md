@@ -90,3 +90,23 @@ The key to improving your ***SEO*** is making your website responsive. Now, if y
 
 
 ---
+
+## 3) More Traffic
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*9xnEqWLES3mtwTEJgo3XAw.jpeg) | 
+|:--:| 
+| Photo by [Gabriel Shaoolian](https://www.forbes.com/sites/gabrielshaoolian/) on [Forbes](https://www.forbes.com/sites/gabrielshaoolian/2018/04/25/exactly-how-to-double-your-website-traffic-and-rank-higher-on-google-in-5-simple-steps/?sh=5e09a93c48eb) |
+
+This is an obvious fact that if your website fits well with all the devices, it creates an opportunity for the users to use it on different devices according to their convenience. According to [Byte9](https://www.thebyte9.com/), tablet sales are expected to reach 100 million this month. Guess how much traffic you can generate from Tablets now. Keep this in mind, the more flexible your website is, the more traffic it can generate.
+
+> The responsive design will oblige the users regardless of how enormous or little their screen is.
+
+---
+
+## 4) Flexible
+
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*QF5sktlLRxBjTCeR0Mlo3w.png) | 
+|:--:| 
+| Photo by [saraads.com](https://www.saraads.com/responsive-website.html) |
+

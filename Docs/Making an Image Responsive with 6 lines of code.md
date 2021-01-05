@@ -21,3 +21,44 @@ As you can see, the same image (human on a kayak) fits very well with all four d
 ---
 
 
+# Implementation
+For the implementation, all you need to do is some basic HTML and CSS coding. Don’t worry, it’s not that hard. I have explained the code below as well.
+
+## HTML
+Everybody knows the creation of an HTML file, I mean an HTML document. Now inside the `.html` file, to render an image give the source of the image inside the `src` attribute of the `img` tag.
+
+> Add a class called `center` so you can provide the properties to make it responsive in the CSS file.
+
+Alright, enough of the jibber-jabber, below is the HTML code.
+
+
+```HTML 
+
+<!-- 
+FileName -     responsiveImage.html
+Description -  This is a HTML file which just displays an image. The responsive properties for the image is defined in the CSS file (styles.css)
+Author -       Tanu Nanda Prabhu
+-->
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Responsive Images</title>
+    <!-- Style Sheet referencing -->
+    <link href = "styles.css" rel = "stylesheet">
+</head>
+<body>
+    
+    <h1 align = "center">Saskatchewan Legislative Building</h1>
+
+    <!-- Add a class named "center" and define its properties in the CSS file" -->
+    <img class="center" src="https://images.unsplash.com/photo-1592329724435-67ae98e9824f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1991&q=80"> 
+    
+    
+    <p>The Saskatchewan Legislative Building is located in Regina, Saskatchewan, Canada, and houses the Legislative Assembly of Saskatchewan.</p>
+     
+</body>
+</html>
+```
+
+---

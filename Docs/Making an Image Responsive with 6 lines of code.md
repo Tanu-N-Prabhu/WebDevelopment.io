@@ -73,4 +73,23 @@ Create a new CSS file called `styles.css` or whatever. Make sure the filename ha
 
 * `margin-right: auto` — Now you know, what `margin-right` does. Giving the value as `auto`, the browser automatically calculates a right margin and places the element accordingly. [Read more](https://www.w3schools.com/cssref/pr_margin-right.asp).
 
-width:100% — The width property sets the width of an element, be it the image, text, video, etc. Giving value in % for example 100% defines the width in percent of the containing block.
+* `width:100%` — The `width` property sets the width of an element, be it the image, text, video, etc. Giving value in `%` for example `100%` defines the width in percent of the containing block. [Read More](https://www.w3schools.com/cssref/pr_dim_width.asp).
+
+Below are the 6 lines of CSS code (comments are exceptions) that I was talking about at the beginning of this tutorial
+
+```CSS
+/*
+FileName -     styles.css
+Description -  CSS code for making the image responsive by setting the value of four properties such as display, margin-left, margin-right, width
+Author -       Tanu Nanda Prabhu
+ */
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+```
+
+---

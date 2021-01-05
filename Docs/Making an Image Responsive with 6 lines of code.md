@@ -100,4 +100,7 @@ The most awaiting part has come. I am going to use **Google Chrome** to render t
 
 > **Activity**: Don’t include the CSS file, try executing only the HTML file, and see the result before jumping to a conclusion.
 
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*D10AMfDHdPcA0eisdfkLpA.png) | 
+|:--:| 
+|The result from Pixel 2XL Zoomed to 150% percent|
 

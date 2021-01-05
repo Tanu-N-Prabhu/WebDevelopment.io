@@ -104,3 +104,8 @@ The most awaiting part has come. I am going to use **Google Chrome** to render t
 |:--:| 
 |The result from Pixel 2XL Zoomed to 150% percent|
 
+
+> From the above result, you don’t have to scroll the image left to right or top to bottom to see the full image. This is the beauty of adding CSS properties to make an image responsive.
+
+---
+

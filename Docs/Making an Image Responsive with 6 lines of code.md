@@ -93,3 +93,11 @@ width: 100%;
 ```
 
 ---
+
+
+# Result
+The most awaiting part has come. I am going to use **Google Chrome** to render the output on a Mobile device. For this, all you have to do is click on **Inspect (Ctrl-Shift-I)** and then click on the **Toggle device toolbar (Ctrl+Shift+M)**. From the drop-down, you can select any of the smartphone or tablet devices.
+
+> **Activity**: Don’t include the CSS file, try executing only the HTML file, and see the result before jumping to a conclusion.
+
+

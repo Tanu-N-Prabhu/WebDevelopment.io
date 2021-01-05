@@ -71,5 +71,6 @@ Create a new CSS file called `styles.css` or whatever. Make sure the filename ha
 
 * `margin-left: auto` — As the name suggests, the `margin-left` sets the element on a left-margin. Given its value as `auto`, the browser automatically calculates a left margin and places the element accordingly. [Read more](https://www.w3schools.com/cssref/pr_margin-left.asp).
 
-margin-right: auto — Now you know, what margin-right does. Giving the value as auto, the browser automatically calculates a right margin and places the element accordingly. Read more.
+* `margin-right: auto` — Now you know, what `margin-right` does. Giving the value as `auto`, the browser automatically calculates a right margin and places the element accordingly. [Read more](https://www.w3schools.com/cssref/pr_margin-right.asp).
+
 width:100% — The width property sets the width of an element, be it the image, text, video, etc. Giving value in % for example 100% defines the width in percent of the containing block.

@@ -62,3 +62,13 @@ Author -       Tanu Nanda Prabhu
 ```
 
 ---
+
+## CSS
+
+Create a new CSS file called `styles.css` or whatever. Make sure the filename has `.css` as its extension. Anyway, now add a selector for the `img` tag bearing the class `center`. A selector selects HTML elements based on the element name. Inside the selector, you need to add 4 CSS properties with their values explained below.
+
+* `display: block` — The `display` property displays an element as a block element. It takes up the entire width of the screen. [Read more](https://www.w3schools.com/cssref/pr_class_display.asp).
+
+margin-left: auto — As the name suggests, the margin-left sets the element on a left-margin. Given its value as auto, the browser automatically calculates a left margin and places the element accordingly. Read more.
+margin-right: auto — Now you know, what margin-right does. Giving the value as auto, the browser automatically calculates a right margin and places the element accordingly. Read more.
+width:100% — The width property sets the width of an element, be it the image, text, video, etc. Giving value in % for example 100% defines the width in percent of the containing block.

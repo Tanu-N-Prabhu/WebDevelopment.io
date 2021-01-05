@@ -112,3 +112,10 @@ The most awaiting part has come. I am going to use **Google Chrome** to render t
 # Conclusion
 
 Congratulations, you have reached the end of this short tutorial named “***Making an Image Responsive with 6 lines of code***”. Well, there are many ways that you can make an image responsive, but this is one of the easiest ways to do so. If you know any other ways to create responsive images, please let me know via the comment section. In this way, you are not only helping me but also helping other readers as well. I hope you guys have learned something new from this tutorial. Stay tuned for more updates, and I wish you guys a thrilling new year 2021.
+
+
+
+##### Written By Tanu Nanda Prabhu using Markdown
+
+###### Version 1.1 - Last Updated on 04-01-2021 on 9:40 PM
+

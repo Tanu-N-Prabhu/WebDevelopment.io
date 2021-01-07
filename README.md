@@ -11,4 +11,8 @@ __Here is a map of all the top-level contents listed in the repository:__
 4. __/CSS__ - This is where all the style code exists.
 4. __/README.md__ - This is the file you're reading now! :-D
 
+
+
+# Navigating to the website
+
 https://tanu-n-prabhu.github.io/myWebsite.io/

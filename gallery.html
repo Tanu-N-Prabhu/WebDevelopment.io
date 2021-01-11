@@ -7,14 +7,8 @@ Author: Tanu Nanda Prabhu
 <html>
 <head>
     
-    <!-- Necessary libraries and hyper-links for the website -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Photography</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+   <title>Home Page</title>
+  <!-- Necessary libraries and hyper-links for the website -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -22,11 +16,443 @@ Author: Tanu Nanda Prabhu
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/91e547386c.js" crossorigin= "anonymous"></script>
-    <!-- Style Sheet Reference -->
-    <link rel="stylesheet" href="CSS/galleryStyles.css">
-
+    
+    
+    
+    
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css'>
 </head>
+    
+    
+    <style>
+    
+    header, footer
+{
+padding: 10px;
+}
+
+div.navbar-header a
+{
+    text-decoration: none;
+    font: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+/* Top and Bottom borders go out */
+div.topBotomBordersOut a.hover:before, div.topBotomBordersOut a.hover:after
+{
+position: absolute;
+left: 0px;
+width: 100%;
+height: 2px;
+background: black;
+content: "";
+opacity: 0;
+transition: all 0.3s;
+}
+
+/* Top and Bottom borders go out */
+div.topBotomBordersOut a.navbar-brand:before, div.topBotomBordersOut a.navbar-brand:after
+{
+position: absolute;
+left: 0px;
+width: 100%;
+height: 2px;
+background: black;
+content: "";
+opacity: 0;
+transition: all 0.3s;
+}
+
+
+div.topBotomBordersOut a.navbar-brand:before
+{
+top: 0px;
+transform: translateY(10px);
+}
+
+div.topBotomBordersOut a.navbar-brand:after
+{
+bottom: 0px;
+transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a.navbar-brand:hover:before, div.topBotomBordersOut a.navbar-brand:hover:after
+{
+opacity: 1;
+transform: translateY(0px);
+}
+
+
+
+div.topBotomBordersOut a.hover:before
+{
+top: 0px;
+transform: translateY(10px);
+}
+
+div.topBotomBordersOut a.hover:after
+{
+bottom: 0px;
+transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a.hover:hover:before, div.topBotomBordersOut a.hover:hover:after
+{
+opacity: 1;
+transform: translateY(0px);
+}
+
+
+
+/* index.css */
+
+
+a{
+color: blue;
+}
+
+.navbar-inverse .navbar-brand {
+color: snow;
+font-size: 20px;
+font-weight: bolder;
+
+
+
+}
+
+
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.navbar .nav {
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.navbar-inverse {
+background-color: #87CEFA
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+background-color: #87CEFA
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+background-color: #87CEFA
+}
+
+
+.navbar-inverse {
+background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+background-image: none;
+}
+
+.navbar-inverse {
+border-color: #87CEFA
+}
+
+.navbar-inverse .navbar-brand {
+color: black
+}
+
+.navbar-inverse .navbar-brand:hover {
+color: white;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+color: white;
+
+
+
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+color: #FFCC00
+}
+
+body {
+background-color: #87CEFA;
+    font-size: 15px;
+}
+
+
+
+/* This is for the paragraph Why, How and When of my website */    
+
+
+
+
+
+
+.footer-bs {
+background-color: #FFAA80;
+padding: 60px 40px;
+margin-bottom: 20px;
+border-bottom-right-radius: 6px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 6px;
+border-radius: 25px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color: black }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:black; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:black; }
+.footer-bs .footer-nav ul.list a:hover { color:red; text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:black;}
+.footer-bs .footer-social a:hover { color:white; text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+font-size: 11px;
+text-transform: uppercase;
+letter-spacing: 3px;
+margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-mode{
+background-color: black;
+}
+
+
+
+
+.dark-mode .navbar-inverse{
+border-color: black;
+
+
+background-color: black;
+color: black;
+
+}
+
+.dark-mode .navbar-inverse .navbar-brand {
+color: white;
+}
+
+.dark-mode .center{
+background-color: white;
+}
+
+
+.dark-mode .navbar-inverse .navbar-nav>li>a {
+color: white;
+background-color: black;
+}
+
+.dark-mode i.toggler {
+color: orange;
+}
+
+.dark-mode .why{
+background-color: white;
+
+}
+
+.dark-mode .footer-bs{
+background-color: white;
+}
+
+
+.dark-mode .footer-bs .footer-social a:hover{color: #FFAA80;}
+
+.dark-mode a.footer:hover{color: #FFAA80;}
+.dark-mode a.footer{color: white;}
+
+
+.dark-mode .title{
+color: white;
+}
+
+.dark-mode .cards-wrapper{
+background-color: white;
+}
+
+.dark-mode a.card:hover{
+background: white;
+color: black;
+}
+
+.dark-mode .navbar-inverse .navbar-brand:hover {
+color: #FFAA80;
+
+}
+
+.dark-mode .navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+color: #FFAA80;
+
+}
+
+.dark-mode .card:hover .tags .tag {
+background-color: black;
+color: white;
+}
+
+.dark-mode .designedBy{
+color: white;
+}
+
+
+a.footer:hover { color:white; font-style: italic; }
+a.footer{
+color: black;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+body {
+padding: 0;
+}
+}
+
+
+@media(max-width: 768px) {
+body {
+padding: 0;
+}
+}
+.dark-mode .first{
+color: white;
+}
+
+.dark-mode .quote{
+color: white;
+}
+
+
+
+
+    
+       
+
+.main .container1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.main .card {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  color: #333333;
+  border-radius: 2px;
+}
+.main .card-image {
+  background: #ffffff;
+  display: block;
+  padding-top: 70%;
+  position: relative;
+  width: 100%;
+}
+.main .card-image img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .main .container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}  
+    
+    
+    </style>
 <body>
+    
+    
     
     
 <div class="container red topBotomBordersOut">
@@ -76,7 +502,7 @@ Author: Tanu Nanda Prabhu
     <br>
     
     <!-- Main Image -->
-    <img class="center-block img-responsive" src="Gallery/Photo.jpg" class="image" alt="Pineapple" style="margin-top: 50px; border-radius: 15px; width: 75%">
+    <img class="center-block img-responsive" src="/Gallery/Photo.jpg" class="image" alt="Pineapple" style="margin-top: 50px; border-radius: 15px; width: 75%">
     <br>
 
     <p class = "first" align = "justify">Welcome to the photographer side of me. On this page, you can find all of my photographies. Well, I'm not the best but trying hard to be one. In my free time I just go to downtown or any other place where I can click some pictures. Most of the time I click pictures from my phone, which is OnePlus 6T.</p>
@@ -94,158 +520,78 @@ Author: Tanu Nanda Prabhu
         <br>
     </div>
    
-    <!-- Light Box Gallery -->
-    <div class="tz-gallery">
+    
+    
+    
+    <!-- partial:index.partial.html -->
+<main class="main">
+  <div class="container1">
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/34MdBRc" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/34MdBRc" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/2Nv9zHh" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/2Nv9zHh" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/2q0iuay" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/2q0iuay" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/34PEofp" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/34PEofp" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/2X4z711" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/2X4z711" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/2rtIqMl" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/2rtIqMl" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/33xTVAn" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/33xTVAn" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/2K3jaDa" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/2K3jaDa" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <a href="https://bit.ly/2WZ3fe2" data-fancybox="gallery" data-caption="Caption Images 1">
+          <img src="https://bit.ly/2WZ3fe2" alt="Image Gallery">
+        </a>
+      </div>
+    </div>
+  </div>
+</main>
 
-        <div class="row">
-
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200920_101902.jpg">
-                    <img src="Gallery/IMG_20200920_101902.jpg" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200917_134314.jpg">
-                    <img src="Gallery/IMG_20200917_134314.jpg" alt="Park">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200929_130630.jpg">
-                    <img src="Gallery/IMG_20200929_130630.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-8">
-                <a class="lightbox" href="Gallery/IMG_20201008_182439.jpg">
-                    <img src="Gallery/IMG_20201008_182439.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20201011_101931.jpg">
-                    <img src="Gallery/IMG_20201011_101931.jpg" alt="Coast">
-                </a>
-            </div> 
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20201011_180637.jpg">
-                    <img src="Gallery/IMG_20201011_180637.jpg" alt="Rails">
-                </a>
-            </div>
-            
-            <!--Second Row -->
-            
-            <div class="col-sm-6 col-md-12">
-                <a class="lightbox" href="Gallery/IMG_20200824_173845__01.jpg">
-                    <img src="Gallery/IMG_20200824_173845__01.jpg" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200828_183812.jpg">
-                    <img src="Gallery/IMG_20200828_183812.jpg" alt="Park">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200917_134307.jpg">
-                    <img src="Gallery/IMG_20200917_134307.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200917_134309.jpg">
-                    <img src="Gallery/IMG_20200917_134309.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20201002_102904.jpg">
-                    <img src="Gallery/IMG_20201002_102904.jpg" alt="Coast">
-                </a>
-            </div> 
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20201023_181221.jpg">
-                    <img src="Gallery/IMG_20201023_181221.jpg" alt="Rails">
-                </a>
-            </div>
-                <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20201219_155433.jpg">
-                    <img src="Gallery/IMG_20201219_155433.jpg" alt="Rails">
-                </a>
-            </div>
-            
-            
-            <!--Third Row -->
-            
-            <div class="col-sm-6 col-md-8">
-                <a class="lightbox" href="Gallery/IMG_20200730_144058.jpg">
-                    <img src="Gallery/IMG_20200730_144058.jpg" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200730_144108.jpg">
-                    <img src="Gallery/IMG_20200730_144108.jpg" alt="Park">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200801_201950.jpg">
-                    <img src="Gallery/IMG_20200801_201950.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200815_201537.jpg">
-                    <img src="Gallery/IMG_20200815_201537.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200817_192430.jpg">
-                    <img src="Gallery/IMG_20200817_192430.jpg" alt="Coast">
-                </a>
-            </div> 
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200728_145809.jpg">
-                    <img src="Gallery/IMG_20200728_145809.jpg" alt="Rails">
-                </a>
-            </div>
-                
-            
-            <!--Fourth Row -->
-             <div class="col-sm-6 col-md-12">
-                <a class="lightbox" href="Gallery/IMG_20200711_134933__01.jpg">
-                    <img src="Gallery/IMG_20200711_134933__01.jpg" alt="Rails">
-                </a>
-            </div>
-            
-           
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200607_144556.jpg">
-                    <img src="Gallery/IMG_20200607_144556.jpg" alt="Park">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200701_190358.jpg">
-                    <img src="Gallery/IMG_20200701_190358.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200715_202825.jpg">
-                    <img src="Gallery/IMG_20200715_202825.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200718_210705.jpg">
-                    <img src="Gallery/IMG_20200718_210705.jpg" alt="Coast">
-                </a>
-            </div> 
-             <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200529_082232.jpg">
-                    <img src="Gallery/IMG_20200529_082232.jpg" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="Gallery/IMG_20200529_081351.jpg">
-                    <img src="Gallery/IMG_20200529_081351.jpg" alt="Bridge">
-                </a>
-            </div>
-
-
-        </div>
-
-    </div> 
     
 </div>
 
@@ -291,8 +637,9 @@ Author: Tanu Nanda Prabhu
     </section>
 </div>
     
-<!-- Javascript Code -->   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js'>
     
 <script>
     baguetteBox.run('.tz-gallery');
@@ -336,7 +683,19 @@ Author: Tanu Nanda Prabhu
     target.classList.toggle('fa-sun');
     });
 
-
+// Fancybox Config
+$('[data-fancybox="gallery"]').fancybox({
+  buttons: [
+    "slideShow",
+    "thumbs",
+    "zoom",
+    "fullScreen",
+    "share",
+    "close"
+  ],
+  loop: false,
+  protect: true
+});
 </script>
 
 </body>

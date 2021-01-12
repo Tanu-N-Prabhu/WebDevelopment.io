@@ -23,3 +23,18 @@ There is a way to navigate to the contributor's dashboard from your repository i
 
 
 ---
+
+
+# Contributors displayed by GitHub (not on the Readme.md file)
+GitHub sorta does a good job in displaying the contributors at the bottom right-hand corner of your repository as shown below.
+
+| ![space-1.jpg](https://miro.medium.com/max/513/1*yb50Ohl6Imca7R6Wo_CHYg.png) | 
+|:--:| 
+| **Contributors displayed by GitHub** |
+
+
+But what if you need to need to display the contributors in your **Readme.md** file? Don’t even think of just bluntly writing all the contributors using Markdown. It’s 2021 there are amazing web applications that can generate the list of contributors as images. One such example is [contributors-img](https://contrib.rocks/preview).
+
+---
+
+

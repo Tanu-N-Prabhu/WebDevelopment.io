@@ -47,5 +47,17 @@ Generating the image is very trivial. All you have to do is navigate to [contrib
 |:--:| 
 | **Using contributors-img to generate an image** |
 
+Or you can also use the code to generate an image. Copy-paste it in your Readme.md file.
 
+```HTML
+
+<!-- Copy-paste in your Readme.md file -->
+
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
+
+```
 

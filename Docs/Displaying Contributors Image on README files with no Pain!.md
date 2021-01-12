@@ -61,3 +61,11 @@ Made with [contributors-img](https://contrib.rocks).
 
 ```
 
+Well, there you go. After entering your credentials such as GitHub **username** and **repository name** you should be able to see an image that has all your contributors. In my case, it will exactly as shown below.
+
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*hbiQItvytc6rBpNI3vFkXw.png) | 
+|:--:| 
+| **Displaying Contributors Image on Readme.md file** |
+
+---

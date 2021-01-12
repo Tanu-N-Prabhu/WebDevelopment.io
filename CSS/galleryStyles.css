@@ -3,24 +3,13 @@ header, footer
 padding: 10px;
 }
 
-
-div.container a
+div.navbar-header a
 {
 text-decoration: none;
 font: 15px;
 position: relative;
 cursor: pointer;
 }
-
-div.why{
-padding: 50px;
-background-color: #FFAA80;
-width: 100%;
-justify-content: center;
-align-items: center;
-border-radius: 25px;
-}
-
 
 /* Top and Bottom borders go out */
 div.topBotomBordersOut a.hover:before, div.topBotomBordersOut a.hover:after
@@ -88,10 +77,6 @@ transform: translateY(0px);
 }
 
 
-
-/* index.css */
-
-
 a{
 color: blue;
 }
@@ -106,14 +91,10 @@ font-weight: bolder;
 }
 
 
-
-
 body {
 font-family: Arial, Helvetica, sans-serif;
 
 }
-
-
 
 .navbar .nav {
 font-family: 'Open Sans', sans-serif;
@@ -171,9 +152,6 @@ color: black;
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
 color: white;
-
-
-
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -188,47 +166,9 @@ color: #FFCC00
 color: #FFCC00
 }
 
-
-.navbar-inverse .navbar-nav>.dropdown>a .caret {
-border-top-color: #FFFFFF
-}
-
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
-border-top-color: #FFFFFF
-}
-
-.navbar-inverse .navbar-nav>.dropdown>a .caret {
-border-bottom-color: #FFFFFF
-}
-
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
-border-bottom-color: #FFFFFF
-} 
-
 body {
 background-color: #87CEFA;
 }
-
-
-
-/* This is for the paragraph Why, How and When of my website */    
-
-
-
-
-/* For the programmer title in the home page */
-p.title{
-margin-top: 100px;
-color: black;
-font-weight: bold;
-font-size: 50px;
-
-}
-
-h1.why{
-font-family: cursive;
-}
-
 
 .footer-bs {
 background-color: #FFAA80;
@@ -281,202 +221,12 @@ margin-bottom:10px;
 @media (min-width: 768px) {
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 
-
 }
-
-
-.cards-wrapper {
-display: grid;
-justify-content: center;
-align-items: center;
-grid-column-gap: 35%;
-grid-row-gap: 50px;
-padding: 100px;
-background-color: #FFFF99;    
-border-radius: 25px;
-
-margin: 0 auto;
-width: 100%;
-
-
-}
-
-
-.card {
-font-family: Arial, Helvetica, sans-serif;
---bg-filter-opacity: 0.5;
-background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-height: 20em;
-width: 15em;
-font-size: 20px;
-color: white;
-border-radius: 1em;
-padding: 1em;
-/*margin: 2em;*/
-display: flex;
-align-items: flex-end;
-background-size: cover;
-background-position: center;
-box-shadow: 0 0 5em -1em black;
-transition: all, var(--transition-time);
-position: relative;
-overflow: hidden;
-border: 10px solid #ccc;
-text-decoration: none;
-}
-
-.card:hover {
-transform: rotate(0);
-}
-
-.card h1 {
-margin: 0;
-font-size: 30px;
-line-height: 1.2em;
-font-weight: bold;
-}
-
-.card p {
-font-size: 15px;
-margin-top: 0.5em;
-line-height: 2em;
-}
-
-.card .tags {
-display: flex;
-}
-
-.card .tags .tag {
-font-size: 0.75em;
-background: rgba(255, 255, 255, 0);
-color: black;
-border-radius: 0.3rem;
-padding: 0 0.5em;
-margin-right: 0.5em;
-line-height: 1.5em;
-transition: all, var(--transition-time);
-}
-
-.card:hover .tags .tag {
-background: white;
-color: black;
-}
-a.card:hover{
-background: #FFAA80;
-color: black;
-}
-
-.card .date {
-position: absolute;
-top: 0;
-right: 0;
-font-size: 0.75em;
-padding: 1em;
-line-height: 1em;
-opacity: .8;
-}
-
-.card:before, .card:after {
-content: '';
-transform: scale(0);
-transform-origin: top left;
-border-radius: 50%;
-position: absolute;
-left: -50%;
-top: -50%;
-z-index: -5;
-transition: all, var(--transition-time);
-transition-timing-function: ease-in-out;
-}
-
-.card:before {
-background: #ddd;
-width: 250%;
-height: 250%;
-}
-
-.card:after {
-background: white;
-width: 200%;
-height: 200%;
-}
-
-
-.card:hover {
-color: var(--color);
-}
-
-.card:hover:before, .card:hover:after {
-transform: scale(1);
-}
-
-.card-grid-space .num {
-font-size: 3em;
-margin-bottom: 1.2rem;
-margin-left: 1rem;
-
-
-}
-
-.info {
-font-size: 1.2em;
-display: flex;
-padding: 1em 3em;
-height: 3em;
-}
-
-.info img {
-height: 3em;
-margin-right: 0.5em;
-}
-
-.info h1 {
-font-size: 1em;
-font-weight: normal;
-}
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 1285px) {
-.cards-wrapper {
-grid-template-columns: 1fr 1fr;
-}
-}
-
-@media screen and (max-width: 900px) {
-.cards-wrapper {
-grid-template-columns: 1fr;
-}
-.info {
-justify-content: center;
-}
-.card-grid-space .num {
-/margin-left: 0;
-/text-align: center;
-}
-}
-
-
-
-
-
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-border-radius: 25px;
-}
-
-
-
-
 
 
 .dark-mode{
 background-color: black;
 }
-
-
 
 
 .dark-mode .navbar-inverse{
@@ -562,57 +312,6 @@ color: black;
 }
 
 
-
-.typewriter {
-font-family: sans-serif;
-color: #fff;
-display: block;
-}
-.typewriter-text {
-padding-right: 10px;
-color: white;
-border-right: solid #ffe509 7px;
-text-transform: uppercase;
-animation: cursor 1s ease-in-out infinite;
-}
-@keyframes cursor {
-from { border-color: #FFAA80; }
-to { border-color: transparent; }
-}
-
-
-.containerab{
-display: flex;
-text-align: center
-}
-
-p{
-font-size: 17px;
-color: black;
-}
-
-
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-padding: 2px;
-}
-
-.tz-gallery .lightbox img {
-width: 100%;
-border-radius: 0;
-position: relative;
-}
-
-
-
-
-.baguetteBox-button {
-color: red;
-
-}
-
-
 @media(max-width: 768px) {
 body {
 padding: 0;
@@ -630,5 +329,55 @@ color: white;
 }
 
 .dark-mode .quote{
+color: white;
+}
+
+
+
+p{
+font-size: 17px;
+}
+
+
+
+.main .container1 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 1rem;
+justify-content: center;
+align-items: center;
+}
+.main .card {
+background: #ffffff;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+color: #333333;
+border-radius: 2px;
+}
+.main .card-image {
+background: #ffffff;
+display: block;
+padding-top: 70%;
+position: relative;
+width: 100%;
+}
+.main .card-image img {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+.main .container1 {
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 1rem;
+}
+}  
+
+.fa-moon{
 color: white;
 }

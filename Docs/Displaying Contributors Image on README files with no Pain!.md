@@ -2,6 +2,8 @@
 
 ## Use contributor-img to generate an image that displays contributors on your GitHub repository.
 
+#### January 10, 2021 - 3 min read
+
 
 | ![space-1.jpg](https://miro.medium.com/max/1050/1*y5d_xjclUbHMeHrC1Qnv5w.jpeg) | 
 |:--:| 
@@ -69,3 +71,15 @@ Well, there you go. After entering your credentials such as GitHub **username** 
 | **Displaying Contributors Image on Readme.md file** |
 
 ---
+
+
+# Conclusion
+Well, there you go guys you have now successfully learned how to generate contributors’ images and display them on your Readme.md files using the [contributors-img](https://contrib.rocks/preview) web application. So have you used it before reading this article? If **yes**, tell me something more about it in the comment section. If **not**, tell me after you use it. Anyway, before ending this short tutorial always keep in mind to give credits to the contributors, this is often a good practice. This is followed very often in the tech industry. Alright, time to say goodbye. Stay tuned. More fun tutorials are yet to come. Until then have a good day/night. Stay safe!!!
+
+
+
+##### Written By Tanu Nanda Prabhu using Markdown
+
+###### Version 1.1 - Last Updated on 11-1-2021 on 10:33 PM
+
+

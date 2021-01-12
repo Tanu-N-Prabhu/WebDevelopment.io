@@ -37,4 +37,15 @@ But what if you need to need to display the contributors in your **Readme.md** f
 
 ---
 
+# Contributors displayed by using contributors-img (on the Readme.md file)
+
+> [contributors-img](https://dev.to/lacolaco/introducing-contributors-img-keep-contributors-in-readme-md-gci) — A web application that generates an image to display contributors of your GitHub repository. — [Suguru Inatomi](https://dev.to/lacolaco)
+
+Generating the image is very trivial. All you have to do is navigate to [contributors-img](https://contrib.rocks/preview) and then paste the **name of your repository** along with your **username** to generate the URL as shown below.
+
+| ![space-1.jpg](https://miro.medium.com/max/1050/1*eSrUBAB6RjJQKZDoKcMCPA.png) | 
+|:--:| 
+| **Using contributors-img to generate an image** |
+
+
 

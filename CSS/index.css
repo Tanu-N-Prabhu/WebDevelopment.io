@@ -556,8 +556,9 @@ color: black;
 }
 
 
-
-
+a.card{
+    text-decoration: none;
+}
 
 
 

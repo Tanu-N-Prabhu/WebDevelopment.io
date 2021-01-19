@@ -1,4 +1,3 @@
-<!-- This is the javascript code for the slider of dark mode -->  
 
 function myFunction() {
     var element = document.body;
@@ -80,7 +79,6 @@ function deleting( index, text ) {
 
 });
 
-<!-- Calling the navBarF File -->
     
 $(function(){
   $("#nav-placeholder").load("navBar.html");

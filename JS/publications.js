@@ -1,3 +1,4 @@
+<!-- This is the javascript code for the slider of dark mode -->    
 function myFunction() 
 {
 var element = document.body;
@@ -66,6 +67,8 @@ $('#number2').jQuerySimpleCounter({end: 789883,duration: 3000});
 $('#number3').jQuerySimpleCounter({end: 341545,duration: 2000});
 $('#number4').jQuerySimpleCounter({end: 1047,duration: 2500});
 
-
+$(function(){
+  $("#nav-placeholder").load("navBar.html");
+});
 
 

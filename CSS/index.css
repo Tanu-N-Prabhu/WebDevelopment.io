@@ -440,8 +440,8 @@ grid-template-columns: 1fr;
 justify-content: center;
 }
 .card-grid-space .num {
-/margin-left: 0;
-/text-align: center;
+margin-left: 0;
+text-align: center;
 }
 }
 
@@ -586,4 +586,9 @@ display: flex;
 text-align: center
 }
 
+
+
+.nav a[title=Home] {
+        display: none;
+    } 
 

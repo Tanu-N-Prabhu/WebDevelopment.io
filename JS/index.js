@@ -79,3 +79,9 @@ function deleting( index, text ) {
     }
 
 });
+
+<!-- Calling the navBarF File -->
+    
+$(function(){
+  $("#nav-placeholder").load("navBar.html");
+});

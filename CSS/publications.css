@@ -836,4 +836,7 @@ font-size: 150%;
 font-weight: bolder
 }
 
+.nav a[title=Publications] {
+        display: none;
+    } 
 

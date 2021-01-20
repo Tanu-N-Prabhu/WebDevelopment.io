@@ -15,14 +15,8 @@
 
 ## 3. Contributors Badge
 
-<a href="https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Tanu-N-Prabhu/Python" />
-</a>
+![Your Repository's Stats](https://contrib.rocks/image?repo=Tanu-N-Prabhu/Python)
 
-Made with [contributors-img](https://contrib.rocks).
-
-
-  ![Your Repository's Stats](https://contrib.rocks/image?repo=Tanu-N-Prabhu/Python)
 ------------------------------------------------------------------------------------------------------------------------------
 
 ## 4. Random Joke Generator
@@ -34,7 +28,7 @@ Made with [contributors-img](https://contrib.rocks).
 
 ## 5. Profile View Counter
 
-<img src="https://komarev.com/ghpvc/?username=Tanu-N-Prabhu"/>
+![Profile View Counter](https://komarev.com/ghpvc/?username=Tanu-N-Prabhu)
 
 ### HITS
 

@@ -14,7 +14,7 @@
 | <img src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white"/> | <p align = "justify">I used `JQuery` specifically for creating a <b>Fancy Box</b> gallery where all my photographs are displayed.</p>
 
 
-
+---
 
 
 
@@ -26,7 +26,7 @@ __Here is a map of all the top-level contents listed in the repository:__
 4. __/CSS__ - This is where all the style code exists.
 4. __/README.md__ - This is the file you're reading now! :-D
 
-
+---
 
 # Navigating to the website
 

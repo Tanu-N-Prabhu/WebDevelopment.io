@@ -38,7 +38,6 @@
 
 ---
 
-
 ## Photos
 
 | <img src = "https://github.com/Tanu-N-Prabhu/myWebsite.io/blob/master/Img/Project/IMG_20201225_003108.jpg" width="300"> | 

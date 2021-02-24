@@ -5,6 +5,7 @@
 # Languages Used
 
 
+
 |<p align = "justify"> Name </p>|<p align = "justify"> Description </p> | 
 | :---:   | :-: | 
 | <img src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> |<p align = "justify"> I have used `HTML` as the <b>base code</b> for the application, meaning all the <b>navigation bar, footer, images, and many more</b> are coded using `HTML`.</p> | 
